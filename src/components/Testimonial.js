@@ -5,6 +5,25 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import Particles from 'react-tsparticles';
 
 const Testimonial = () => {
+  const options={
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      800: {
+        items: 1,
+      },
+      1024: {
+        items: 1,
+      },
+      1200: {
+        items: 1.6,
+      },
+    }
+  }
   return (
     <div>
          {/*Testimonial One Start*/}
@@ -28,10 +47,12 @@ const Testimonial = () => {
               <div className="col-xl-8 col-lg-7">
                 <div className="testimonial-one__right">
                   <OwlCarousel
+                 
                     loop
                     margin={50}
                     items={2}
                     autoplay={true}
+                    
                     className="testimonial-one__carousel owl-theme owl-carousel"
                   >
                     {/*Testimonial One Single*/}

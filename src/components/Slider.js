@@ -33,7 +33,7 @@ const Slider = () => {
     <div class="main-slider">
       <Swiper
         modules={[Navigation, EffectFade]}
-        navigation
+        // navigation
         effect={"fade"}
         speed={800}
         autoplay={{
