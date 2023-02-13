@@ -186,7 +186,7 @@
 
   // Project One Carousel
   if ($(".project-one__carousel").length) {
-    $(".project-one__carousel").owlCarousel({
+    $(".project-one__carousel").OwlCarousel({
       loop: true,
       margin: 30,
       nav: false,

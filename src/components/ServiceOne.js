@@ -24,7 +24,7 @@ const ServiceOne = () => {
                   </div>
                   <h3 className="services-one__title">
                     <a href="it-consultancy.html">
-                      IT Consulting <br /> Services
+                      Software & Platform <br /> Development
                     </a>
                   </h3>
                   <p className="services-one__text">
@@ -49,7 +49,7 @@ const ServiceOne = () => {
                   </div>
                   <h3 className="services-one__title">
                     <a href="custom-software.html">
-                      Software Dev <br /> Services
+                      Digital <br /> Marketing
                     </a>
                   </h3>
                   <p className="services-one__text">
@@ -74,7 +74,85 @@ const ServiceOne = () => {
                   </div>
                   <h3 className="services-one__title">
                     <a href="cloud-computing.html">
-                      Cloud Computing <br /> Services
+                      Cloud  <br /> Service
+                    </a>
+                  </h3>
+                  <p className="services-one__text">
+                    There are many variations of passages of lorem im available,
+                    but majority suffered.
+                  </p>
+                  <div className="services-one__arrow">
+                    <a href="cloud-computing.html">
+                      <span className="icon-right-arrow" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-lg-4 wow fadeInRight"
+                data-wow-delay="100ms"
+              >
+                {/*Services One Single*/}
+                <div className="services-one__single">
+                  <div className="services-one__icon">
+                    <span className="icon-cloud-storage" />
+                  </div>
+                  <h3 className="services-one__title">
+                    <a href="cloud-computing.html">
+                      Retail &  <br /> Ecommerce
+                    </a>
+                  </h3>
+                  <p className="services-one__text">
+                    There are many variations of passages of lorem im available,
+                    but majority suffered.
+                  </p>
+                  <div className="services-one__arrow">
+                    <a href="cloud-computing.html">
+                      <span className="icon-right-arrow" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-lg-4 wow fadeInRight"
+                data-wow-delay="100ms"
+              >
+                {/*Services One Single*/}
+                <div className="services-one__single">
+                  <div className="services-one__icon">
+                    <span className="icon-cloud-storage" />
+                  </div>
+                  <h3 className="services-one__title">
+                    <a href="cloud-computing.html">
+                     HRM
+                     <br/>
+                     <br/>
+                     
+                    </a>
+                  </h3>
+                  <p className="services-one__text">
+                    There are many variations of passages of lorem im available,
+                    but majority suffered.
+                  </p>
+                  <div className="services-one__arrow">
+                    <a href="cloud-computing.html">
+                      <span className="icon-right-arrow" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-xl-4 col-lg-4 wow fadeInRight"
+                data-wow-delay="100ms"
+              >
+                {/*Services One Single*/}
+                <div className="services-one__single">
+                  <div className="services-one__icon">
+                    <span className="icon-cloud-storage" />
+                  </div>
+                  <h3 className="services-one__title">
+                    <a href="cloud-computing.html">
+                      Digital Marketing  <br /> Institute
                     </a>
                   </h3>
                   <p className="services-one__text">

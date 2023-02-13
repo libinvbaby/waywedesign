@@ -50,7 +50,39 @@ const Slider = () => {
               className="image-layer"
               style={{
                 backgroundImage:
-                  "url(assets/images/backgrounds/main-slider-1-1.jpg)",
+                  "url(assets/images/banner/banner-one.jpg)",
+              }}
+            ></div>
+            <div className="image-layer-overlay" />
+            {/* /.image-layer */}
+            <div className="main-slider-shape-1">
+              <img src="assets/images/shapes/main-slider-shape-1.png" alt />
+            </div>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8">
+                  <div className="main-slider__content">
+                    <h2>
+                    Take Your Brand's Eventful Story Into The  Digital Space 
+							
+                    </h2>
+                    {/* <p>
+                      We’ve One Mission to be the Best IT Software Company in UK
+                    </p> */}
+                    <a href="about.html" className="thm-btn">
+                      Discover More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide">
+            <div
+              className="image-layer"
+              style={{
+                backgroundImage:
+                  "url(assets/images/banner/banner-two.jpg)",
               }}
             ></div>
             <div className="image-layer-overlay" />
@@ -81,38 +113,7 @@ const Slider = () => {
               className="image-layer"
               style={{
                 backgroundImage:
-                  "url(assets/images/backgrounds/main-slider-1-2.jpg)",
-              }}
-            ></div>
-            <div className="image-layer-overlay" />
-            {/* /.image-layer */}
-            <div className="main-slider-shape-1">
-              <img src="assets/images/shapes/main-slider-shape-1.png" alt />
-            </div>
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8">
-                  <div className="main-slider__content">
-                    <h2>
-                      Better Solution at <br /> Your Fingertips
-                    </h2>
-                    <p>
-                      We’ve One Mission to be the Best IT Software Company in UK
-                    </p>
-                    <a href="about.html" className="thm-btn">
-                      Discover More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-slide">
-            <div
-              className="image-layer"
-              style={{
-                backgroundImage:
-                  "url(assets/images/backgrounds/main-slider-1-3.jpg)",
+                  "url(assets/images/banner/banner-three.jpg)",
               }}
             ></div>
             <div className="image-layer-overlay" />

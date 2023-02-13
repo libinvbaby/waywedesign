@@ -12,7 +12,7 @@ const ImproveSection = () => {
             data-imgposition="50% 0%"
             style={{
               backgroundImage:
-                "url(assets/images/backgrounds/improve-one-bg.jpg)",
+                "url(assets/images/backgrounds/arrow-background.jpg)",
             }}
           />
           <div className="improve-one-bg-overly" />
@@ -27,12 +27,12 @@ const ImproveSection = () => {
                   <div className="improve-one__img-box">
                     <div className="improve-one__img">
                       <img
-                        src="assets/images/resources/improve-one-img-1.jpg"
+                        src="assets/images/resources/missionandvision.png"
                         alt
                       />
                     </div>
                     <div className="improve-one__project-complete">
-                      <p>8008 Projects are completed</p>
+                      <p>100+ Projects are completed</p>
                     </div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const ImproveSection = () => {
                       IT Technology
                     </span>
                     <h2 className="section-title__title">
-                      Improve and Innovate with Tech Trends
+                      Mission and Vision
                     </h2>
                   </div>
                   <ul className="list-unstyled improve-one__points">
@@ -53,11 +53,9 @@ const ImproveSection = () => {
                         <span className="icon-artificial-intelligence" />
                       </div>
                       <div className="text">
-                        <h3>Artificial Intelligence</h3>
+                        <h3>MISSION</h3>
                         <p>
-                          There are many variations of passages of available but
-                          the majority have suffered alteration in some form
-                          injected{" "}
+                        Delivering innovative and reliable solutions to fulfill the requirements of our clients with exceptional standards and uncompromising integrity
                         </p>
                       </div>
                     </li>
@@ -66,11 +64,9 @@ const ImproveSection = () => {
                         <span className="icon-ai" />
                       </div>
                       <div className="text">
-                        <h3>Augmented Reality</h3>
-                        <p>
-                          There are many variations of passages of available but
-                          the majority have suffered alteration in some form
-                          injected{" "}
+                        <h3>VISSION</h3>
+                        <p className="pb-5">
+                        To be leading Web Solutions Company in the IT industry, our goal is to continue to solidify our position in the market. We know that the success of our clients is directly tied to our own success, and we are committed to helping them achieve their business goals. We are committed to providing accurate, high-quality work. We strive to be recognized as a reliable, innovative and user-friendly service provider in the IT industry.
                         </p>
                       </div>
                     </li>

@@ -16,7 +16,9 @@ const Navbar = () => {
                   <span className="icon-pin" />
                 </div>
                 <div className="text">
-                  <p>66 Road Broklyn Golden Street. New York</p>
+                  <p>Way WeDesign,
+ 47/1403A,Ivees, MRERA-69, Chalikkavattom, Vennala
+Kochi, Kerala</p>
                 </div>
               </li>
               <li>
@@ -24,15 +26,15 @@ const Navbar = () => {
                   <span className="icon-email" />
                 </div>
                 <div className="text">
-                  <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                  <p><a href="mailto:Contact@waywedesign.com">Contact@waywedesign.com</a></p>
                 </div>
               </li>
             </ul>
           </div>
           <div className="main-header__top-right">
-            <div className="main-header__top-right-text">
+            {/* <div className="main-header__top-right-text">
               <p><span>Now Hiring:</span> Are you a driven and motivated 1st Line IT Support Engineer?</p>
-            </div>
+            </div> */}
             <div className="main-header__top-right-social">
 
               <a href="#"><i className="fab fa-twitter" /></a>
@@ -48,7 +50,7 @@ const Navbar = () => {
           <div className="main-menu-wrapper-inner clearfix">
             <div className="main-menu-wrapper__left clearfix">
               <div className="main-menu-wrapper__logo">
-                    <Link to='/'><img src="assets/images/resources/logo-1.png" alt /></Link>
+                    <Link to='/'><img  width='150px' src="assets/images/logo-wwd.png" alt /></Link>
                 
               </div>
               <div className="main-menu-wrapper__main-menu">

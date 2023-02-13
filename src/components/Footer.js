@@ -17,21 +17,22 @@ const Footer = () => {
                 />
                 <div className="row">
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-5 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="100ms"
                   >
                     <div className="footer-widget__column footer-widget__about">
                       <div className="footer-widget__about-logo">
                         <a href="index.html">
-                          <img
-                            src="assets/images/resources/footer-logo.png"
+                          <img width="150px"
+                            src="assets/images/logo-wwd-white.png"
                             alt
                           />
                         </a>
                       </div>
                       <p className="footer-widget__about-text">
-                        There are many vari of pass of lorem ipsum availab but
-                        the majority have suffered in some forms.
+                      Waywedesign specializes in offering Digital Marketing services such as Social Media Marketing (SMM), Paid Advertisements, Search Engine Marketing (SEM), Search Engine Optimization (SEO), Video Marketing, and other Online Promotions. Our customized solutions, cost-effective package, and customer-centric approach makes us the best internet marketing agency in Kochi, Kerala
+
+
                       </p>
                       <div className="footer-widget__about-social">
                         <a href="#">
@@ -50,7 +51,7 @@ const Footer = () => {
                     </div>
                   </div>
                   <div
-                    className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                    className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="200ms"
                   >
                     <div className="footer-widget__column footer-widget__links clearfix">
@@ -95,7 +96,10 @@ const Footer = () => {
                     <div className="footer-widget__column footer-widget__contact">
                       <h3 className="footer-widget__title">Contact</h3>
                       <p className="footer-widget__contact-text">
-                        66 Road Broklyn Street, 600 <br /> New York, USA
+                      Way WeDesign,<br/>
+47/1403A,Ivees, MRERA-69, Chalikkavattom, Vennala<br/>
+Kochi, Kerala<br/>
+682028
                       </p>
                       <ul className="list-unstyled footer-widget__contact-list">
                         <li>
@@ -104,8 +108,8 @@ const Footer = () => {
                           </div>
                           <div className="text">
                             <p>
-                              <a href="mailto:needhelp@company.com">
-                                needhelp@company.com
+                              <a href="mailto:Contact@waywedesign.com">
+                              Contact@waywedesign.com
                               </a>
                             </p>
                           </div>
@@ -116,42 +120,11 @@ const Footer = () => {
                           </div>
                           <div className="text">
                             <p>
-                              <a href="tel:926668880000">+ 92 666 888 0000</a>
+                              <a href="tel:+91 799 464 3673">+91 799 464 3673</a>
                             </p>
                           </div>
                         </li>
                       </ul>
-                    </div>
-                  </div>
-                  <div
-                    className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                    data-wow-delay="400ms"
-                  >
-                    <div className="footer-widget__column footer-widget__newsletter">
-                      <h3 className="footer-widget__title">Newsletter</h3>
-                      <p className="footer-widget__newsletter-text">
-                        Subscribe to our newsletter for daily new and updates
-                      </p>
-                      <form
-                        className="footer-widget__newsletter-form mc-form"
-                        data-url="https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&id=cc0ee8140e"
-                      >
-                        <div className="footer-widget__newsletter-input-box">
-                          <input
-                            type="email"
-                            placeholder="Email address"
-                            name="email"
-                          />
-                          <button
-                            type="submit"
-                            className="footer-widget__newsletter-btn"
-                          >
-                            Send
-                          </button>
-                        </div>
-                      </form>
-                      <div className="mc-form__response" />
-                      {/* /.mc-form__response */}
                     </div>
                   </div>
                 </div>
@@ -168,7 +141,7 @@ const Footer = () => {
                         <p className="site-footer__bottom-text">
                           © All Copyright <span className="dynamic-year"></span>
                           {/* /.dynamic-year */} by{" "}
-                          <a href="#">Layerdrops.com</a>
+                          <a href="#">WayWeDesign.com</a>
                         </p>
                       </div>
                       <div className="site-footer__bottom-right">

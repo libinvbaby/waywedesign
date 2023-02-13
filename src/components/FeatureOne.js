@@ -18,7 +18,7 @@ const FeatureOne = () => {
                       <span className="icon-innovation" />
                     </div>
                     <div className="feature-one__text">
-                      <h3>IT Management</h3>
+                      <h3>Web Development</h3>
                       <p>Lorem ipsum is simply of free text dolor.</p>
                     </div>
                   </div>
@@ -33,7 +33,7 @@ const FeatureOne = () => {
                       <span className="icon-cyber-security" />
                     </div>
                     <div className="feature-one__text">
-                      <h3>Cyber Security</h3>
+                      <h3>Digital Marketing</h3>
                       <p>Lorem ipsum is simply of free text dolor.</p>
                     </div>
                   </div>
@@ -48,7 +48,8 @@ const FeatureOne = () => {
                       <span className="icon-webpage" />
                     </div>
                     <div className="feature-one__text">
-                      <h3>PC Computing</h3>
+                      <h3>Graphical Dynamite
+</h3>
                       <p>Lorem ipsum is simply of free text dolor.</p>
                     </div>
                   </div>

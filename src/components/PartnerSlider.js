@@ -78,51 +78,61 @@ const PartnerSlider = () => {
             >
               <div className="swiper-wrapper">
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-1.png" alt />
+                  <img src="assets/images/brand/millow-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-2.png" alt />
+                  <img src="assets/images/brand/marcom-logo.svg" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-3.png" alt />
+                  <img width="100%" src="assets/images/brand/kompan-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-4.png" alt />
+                  <img src="assets/images/brand/kingdom-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-5.png" alt />
+                <br/>
+                <br/>
+                  <img src="assets/images/brand/SEAFORD-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-6.png" alt />
+                  <img src="assets/images/brand/tuteLink-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-1.png" alt />
+                  <img src="assets/images/brand/liberty_logo.jpg" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-2.png" alt />
+                  <img src="assets/images/brand/foodro-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-3.png" alt />
+                  <img src="assets/images/brand/abet-logo.jpg" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-4.png" alt />
+                <br/>
+                <br/>
+                  <img src="assets/images/brand/bhc-logo.png" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-5.png" alt />
+                <br/>
+                <br/>
+                <br/>
+                  <img src="assets/images/brand/fotech-logo.svg" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
                 <SwiperSlide className="swiper-slide">
-                  <img src="assets/images/brand/brand-1-6.png" alt />
+                <br/>
+                <br/>
+                <br/>
+                  <img src="assets/images/brand/bookotrip-logo.svg" alt />
                 </SwiperSlide>
                 {/* /.swiper-slide */}
               </div>

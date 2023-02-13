@@ -1,4 +1,6 @@
 import React from 'react'
+import Odometer from 'react-odometerjs';
+
 
 const DiscoverMore = () => {
   return (
@@ -18,8 +20,8 @@ const DiscoverMore = () => {
                 <div className="col-xl-7">
                   <div className="share-the-joy__left">
                     <h2 className="share-the-joy__title">
-                      Share the Joy of Achieving Glorious Moments &amp; Climbing
-                      Up the Top
+                     We are providing an end-to-end services to help you find Online
+
                     </h2>
                     <a href="#" className="share-the-joy__btn thm-btn">
                       Discover More
@@ -52,9 +54,9 @@ const DiscoverMore = () => {
                         <span className="icon-social-media" />
                         <div className="share-the-joy__trusted__content">
                           <p>Trusted by</p>
-                          <h3 className="odometer" data-count={8800}>
-                            00
-                          </h3>
+                          
+                          <Odometer className="odometer" value={100} format="(.ddd),dd"/>
+                          
                         </div>
                       </div>
                     </div>

@@ -14,6 +14,7 @@ import Testimonial from "../components/Testimonial";
 import BlogHome from "../components/BlogHome";
 import HomeCta from "../components/HomeCta";
 import Footer from "../components/Footer";
+import CoreValue from "../components/CoreValue";
 
 const Home = () => {
   return (
@@ -26,8 +27,9 @@ const Home = () => {
        <AboutOne/>
        <ServiceOne/>
         <DiscoverMore/>
-        <ProjectsSlider/>
+        {/* <ProjectsSlider/> */}
         <ImproveSection/>
+        <CoreValue/>
         <Testimonial/>
         <BlogHome/>
         <HomeCta/>

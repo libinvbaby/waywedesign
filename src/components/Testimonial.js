@@ -2,6 +2,7 @@ import React from 'react'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import Particles from 'react-tsparticles';
 
 const Testimonial = () => {
   return (
@@ -9,6 +10,7 @@ const Testimonial = () => {
          {/*Testimonial One Start*/}
          <section className="testimonial-one">
           <div id="particles-js" />
+          <Particles/>
           <div className="container">
             <div className="row">
               <div className="col-xl-4 col-lg-5">
