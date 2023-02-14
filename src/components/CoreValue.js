@@ -9,15 +9,15 @@ const CoreValue = () => {
     <div className="row">
       <div className="col-xl-12">
         <ul className="help__box list-unstyled clearfix">
-          <li className="help__single help__box-one wow fadeInLeft" data-wow-delay="100ms">
+          <li  className="help__single help__box-one wow fadeInLeft" data-wow-delay="100ms">
             <div className="help__box-one-content">
-              <h3 className="help__box-one-title">Our Core <br/> Values</h3>
+              <h3 className="help__box-one-title">Our Core Values</h3>
             </div>
             <div className="help__box-one-img">
               <img src="assets/images/resources/help-box-one-img-1.jpg" alt />
             </div>
           </li>
-          <li className="help__single help__box-two wow fadeInLeft" data-wow-delay="300ms">
+          <li data-aos="fade-up-right" className="help__single help__box-two wow fadeInLeft" data-wow-delay="300ms">
             <div className="help__box-two-content">
               <div className="help__box-two-icon">
                 <span className="icon-learning" />
@@ -26,7 +26,7 @@ const CoreValue = () => {
               <p className="help__box-two-text">We craft your brand with great care implementing inventive concepts and innovative approaches</p>
             </div>
           </li>
-          <li className="help__single help__box-two wow fadeInLeft" data-wow-delay="600ms">
+          <li data-aos="fade-up-right" className="help__single help__box-two wow fadeInLeft" data-wow-delay="600ms">
             <div className="help__box-two-content">
               <div className="help__box-two-icon">
                 <span className="icon-verify" />
@@ -40,7 +40,7 @@ const CoreValue = () => {
 </p>
             </div>
           </li>
-          <li className="help__single help__box-two help__box-last wow fadeInLeft" data-wow-delay="900ms">
+          <li data-aos="fade-up-right" className="help__single help__box-two help__box-last wow fadeInLeft" data-wow-delay="900ms">
             <div className="help__box-two-content">
               <div className="help__box-two-icon">
                 <span className="icon-cloud" />
@@ -52,7 +52,7 @@ const CoreValue = () => {
 </p>
             </div>
           </li>
-          <li className="help__single help__box-two help__box-last wow fadeInLeft" data-wow-delay="900ms">
+          <li data-aos="fade-up-right" className="help__single help__box-two help__box-last wow fadeInLeft" data-wow-delay="900ms">
             <div className="help__box-two-content">
               <div className="help__box-two-icon">
                 <span className="icon-cloud" />
