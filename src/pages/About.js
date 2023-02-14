@@ -1,12 +1,17 @@
 import React from 'react'
-import Testimonial from '../components/Testimonial';
-import BlogHome from './../components/BlogHome';
+import AboutSlider from '../components/about/AboutSlider';
+import KnowAbout from '../components/about/KnowAbout';
+import Breadcrumbs from '../components/Breadcrumbs';
+import Testimonial from './../components/home/Testimonial';
+
 
 const About = () => {
   return (
     <div>
-      <Testimonial />
-      <BlogHome/>
+      <Breadcrumbs pagetitle="About"/>
+      <KnowAbout />
+      <AboutSlider/>
+      <Testimonial/>
     </div>
   )
 }

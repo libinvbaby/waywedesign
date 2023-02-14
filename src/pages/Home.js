@@ -1,16 +1,17 @@
 import React from "react";
-import Slider from "../components/Slider";
-import PartnerSlider from "../components/PartnerSlider";
-import FeatureOne from "../components/FeatureOne";
-import AboutOne from "../components/AboutOne";
-import ServiceOne from './../components/ServiceOne';
-import DiscoverMore from "../components/DiscoverMore";
-// import ProjectsSlider from "../components/ProjectsSlider";
-import ImproveSection from "../components/ImproveSection";
-import Testimonial from "../components/Testimonial";
-import BlogHome from "../components/BlogHome";
-import HomeCta from "../components/HomeCta";
-import CoreValue from "../components/CoreValue";
+import Slider from './../components/home/Slider';
+import PartnerSlider from './../components/home/PartnerSlider';
+import FeatureOne from './../components/home/FeatureOne';
+import AboutOne from './../components/home/AboutOne';
+import ServiceOne from './../components/home/ServiceOne';
+import DiscoverMore from './../components/home/DiscoverMore';
+import ImproveSection from './../components/home/ImproveSection';
+import CoreValue from './../components/home/CoreValue';
+import Testimonial from './../components/home/Testimonial';
+import BlogHome from './../components/home/BlogHome';
+import HomeCta from './../components/home/HomeCta';
+// import ProjectsSlider from './../components/home/ProjectsSlider';
+
 
 const Home = () => {
   return (
