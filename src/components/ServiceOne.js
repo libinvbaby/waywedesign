@@ -13,7 +13,7 @@ const ServiceOne = () => {
               <h2 className="section-title__title">What We’re Offering</h2>
             </div>
             <div className="row">
-              <div
+              <div  data-aos="fade-up-right"
                 className="col-xl-4 col-lg-4 wow fadeInLeft"
                 data-wow-delay="100ms"
               >
@@ -38,7 +38,7 @@ const ServiceOne = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="slide-up"
                 className="col-xl-4 col-lg-4 wow fadeInUp"
                 data-wow-delay="200ms"
               >
@@ -63,7 +63,7 @@ const ServiceOne = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="fade-up-left"
                 className="col-xl-4 col-lg-4 wow fadeInRight"
                 data-wow-delay="100ms"
               >
@@ -88,7 +88,7 @@ const ServiceOne = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="fade-up-right"
                 className="col-xl-4 col-lg-4 wow fadeInRight"
                 data-wow-delay="100ms"
               >
@@ -113,7 +113,7 @@ const ServiceOne = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="slide-up"
                 className="col-xl-4 col-lg-4 wow fadeInRight"
                 data-wow-delay="100ms"
               >
@@ -141,7 +141,7 @@ const ServiceOne = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="fade-up-left"
                 className="col-xl-4 col-lg-4 wow fadeInRight"
                 data-wow-delay="100ms"
               >

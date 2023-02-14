@@ -19,7 +19,7 @@ const ImproveSection = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-6">
-                <div
+                <div   data-aos="fade-up-right"
                   className="improve-one__left wow slideInLeft"
                   data-wow-delay="100ms"
                   data-wow-duration="2500ms"

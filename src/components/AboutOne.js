@@ -1,6 +1,7 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 const AboutOne = () => {
+
   return (
     <div>
       {/*About One Start*/}
@@ -8,7 +9,7 @@ const AboutOne = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
-              <div
+              <div data-aos="slide-right"
                 className="about-one__left wow slideInLeft"
                 data-wow-delay="100ms"
                 data-wow-duration="2500ms"

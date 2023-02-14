@@ -8,7 +8,7 @@ const FeatureOne = () => {
           <div className="container">
             <div className="feature-one__top">
               <div className="row">
-                <div
+                <div data-aos="fade"
                   className="col-xl-4 col-lg-4 wow fadeInUp"
                   data-wow-delay="100ms"
                 >
@@ -23,7 +23,7 @@ const FeatureOne = () => {
                     </div>
                   </div>
                 </div>
-                <div
+                <div data-aos="fade"
                   className="col-xl-4 col-lg-4 wow fadeInUp"
                   data-wow-delay="200ms"
                 >
@@ -38,7 +38,7 @@ const FeatureOne = () => {
                     </div>
                   </div>
                 </div>
-                <div
+                <div data-aos="fade"
                   className="col-xl-4 col-lg-4 wow fadeInUp"
                   data-wow-delay="300ms"
                 >

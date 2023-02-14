@@ -1,6 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
 const BlogHome = () => {
+  useEffect(()=>{
+    Aos.init({ duration:600,
+      easing: 'ease',
+      });
+  },[])
   return (
     <div>
          {/*News One Start*/}
@@ -12,8 +19,8 @@ const BlogHome = () => {
               </span>
               <h2 className="section-title__title">News &amp; Articles</h2>
             </div>
-            <div className="row">
-              <div
+            <div className="row" data-aos="fade-in">
+              <div data-aos="fade-up-right"
                 className="col-xl-4 col-lg-4 wow fadeInLeft"
                 data-wow-delay="100ms"
               >
@@ -63,7 +70,7 @@ const BlogHome = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="slide-up"
                 className="col-xl-4 col-lg-4 wow fadeInUp"
                 data-wow-delay="200ms"
               >
@@ -113,7 +120,7 @@ const BlogHome = () => {
                   </div>
                 </div>
               </div>
-              <div
+              <div data-aos="fade-up-left"
                 className="col-xl-4 col-lg-4 wow fadeInRight"
                 data-wow-delay="300ms"
               >

@@ -16,7 +16,7 @@ const Footer = () => {
                   }}
                 />
                 <div className="row">
-                  <div
+                  <div data-aos="fade-up"
                     className="col-xl-5 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="100ms"
                   >
@@ -50,7 +50,7 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                  <div
+                  <div data-aos="fade-up-right"
                     className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="200ms"
                   >
@@ -89,7 +89,7 @@ const Footer = () => {
                       </ul>
                     </div>
                   </div>
-                  <div
+                  <div data-aos="fade-up-right"
                     className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                     data-wow-delay="300ms"
                   >
