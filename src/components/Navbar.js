@@ -8,7 +8,7 @@ const Menu = () => {
   
   return (
     <div>
-      <header className="main-header clearfix">
+       <header className="main-header clearfix">
     <div className="main-header__top clearfix">
       <div className="main-header__top-inner clearfix">
         <div className="main-header__top-left">
@@ -64,16 +64,18 @@ const Menu = () => {
         <div className="main-menu-wrapper-inner clearfix">
           <div className="main-menu-wrapper__left clearfix">
             <div className="main-menu-wrapper__logo">
-              <Link to="/">
+              <Navbar.Brand >
                 <img width="150px" src="assets/images/logo-wwd.png" alt />
-              </Link>
+              </Navbar.Brand>
             </div>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />  
             <Navbar.Collapse id="basic-navbar-nav" className="main-menu-wrapper__main-menu">
-              <a href="#" className="mobile-nav__toggler">
+            <Nav className="me-auto"> 
+              {/* <a href="#" className="mobile-nav__toggler">
                 <i className="fa fa-bars" />
-              </a>
+              </a> */}
+                          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+
               <ul className="main-menu__list">
                 <li>
                   <Link to="/">Home</Link>
@@ -171,6 +173,7 @@ const Menu = () => {
                   <Link to="/contact">Contact Us</Link>
                 </li>
               </ul>
+              </Nav>
             </Navbar.Collapse>
           </div>
           {/* <div className="main-menu-wrapper__right">
