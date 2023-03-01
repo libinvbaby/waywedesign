@@ -3,10 +3,10 @@ import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import Aos from "aos"
 import 'aos/dist/aos.css' 
 import Home from './pages/Home'
-import Menu from './components/Navbar'
 import About from './pages/About';
-import Footer from './components/Footer';
 import Service from './pages/Service';
+import CloudService from './pages/CloudService'
+import DigitalMarketingAcademy from './pages/DigitalMarketingAcademy';
 
 const App = () => {
   useEffect(()=>{
@@ -18,13 +18,14 @@ const App = () => {
   return (
     <div className="page-wrapper">
       <Router>
-      <Menu />
+        {/* <BasicExample /> */}
         <Routes>
         <Route path='/'  element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/services' element={<Service/>}/>
+        <Route path='/cloud-service' element={<CloudService/>}/>
+        <Route path='/digital-marketing-academy' element={<DigitalMarketingAcademy/>}/>
         </Routes>
-        <Footer/>
       </Router>
     </div>
   )

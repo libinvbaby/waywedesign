@@ -11,13 +11,17 @@ import Testimonial from './../components/home/Testimonial';
 import BlogHome from './../components/home/BlogHome';
 import HomeCta from './../components/home/HomeCta';
 // import ProjectsSlider from './../components/home/ProjectsSlider';
+import Footer from './../components/Footer';
+import Menu from './../components/Navbar';
 
 
 const Home = () => {
   return (
     <div>
-     
+           <Menu />
+
       <div className="page-wrapper">
+        
        <Slider />
        <PartnerSlider/>
         <FeatureOne/>
@@ -30,6 +34,8 @@ const Home = () => {
         <Testimonial/>
         <BlogHome/>
         <HomeCta/>
+        <Footer/>
+
        
        
       </div>

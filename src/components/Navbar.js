@@ -67,13 +67,13 @@ const Menu = () => {
               <Navbar.Brand >
                 <img width="150px" src="assets/images/logo-wwd.png" alt />
               </Navbar.Brand>
-            </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />  
-            <Navbar.Collapse id="basic-navbar-nav" className="main-menu-wrapper__main-menu">
-            <Nav className="me-auto"> 
-              {/* <a href="#" className="mobile-nav__toggler">
+            </div>
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto"> 
+              {/* <Navbar.Toggle aria-controls="basic-navbar-nav"  href="#" className="mobile-nav__toggler">
                 <i className="fa fa-bars" />
-              </a> */}
+              </Navbar.Toggle> */}
                           {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
 
               <ul className="main-menu__list">
@@ -157,7 +157,7 @@ const Menu = () => {
                       <Link to="/hrm">HRM</Link>
                     </li>
                     <li>
-                      <Link to="/digital-academy">Digital Academy</Link>
+                      <Link to="/digital-marketing-academy">Digital Academy</Link>
                     </li>
                    
                   </ul>

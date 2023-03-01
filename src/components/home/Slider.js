@@ -56,7 +56,7 @@ const Slider = () => {
             <div className="image-layer-overlay" />
             {/* /.image-layer */}
             <div className="main-slider-shape-1">
-              <img src="assets/images/shapes/main-slider-shape-1.png" alt />
+              {/* <img src="assets/images/shapes/main-slider-shape-1.png" alt /> */}
             </div>
             <div className="container">
               <div className="row">
@@ -88,7 +88,7 @@ const Slider = () => {
             <div className="image-layer-overlay" />
             {/* /.image-layer */}
             <div className="main-slider-shape-1">
-              <img src="assets/images/shapes/main-slider-shape-1.png" alt />
+              {/* <img src="assets/images/shapes/main-slider-shape-1.png" alt /> */}
             </div>
             <div className="container">
               <div className="row">
@@ -119,7 +119,7 @@ const Slider = () => {
             <div className="image-layer-overlay" />
             {/* /.image-layer */}
             <div className="main-slider-shape-1">
-              <img src="assets/images/shapes/main-slider-shape-1.png" alt />
+              {/* <img src="assets/images/shapes/main-slider-shape-1.png" alt /> */}
             </div>
             <div className="container">
               <div className="row">
