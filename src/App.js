@@ -7,6 +7,7 @@ import About from './pages/About';
 import Service from './pages/Service';
 import CloudService from './pages/CloudService'
 import DigitalMarketingAcademy from './pages/DigitalMarketingAcademy';
+import Hrm from './pages/Hrm';
 
 const App = () => {
   useEffect(()=>{
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/services' element={<Service/>}/>
         <Route path='/cloud-service' element={<CloudService/>}/>
         <Route path='/digital-marketing-academy' element={<DigitalMarketingAcademy/>}/>
+        <Route path='/hrm' element={<Hrm/>}/>
         </Routes>
       </Router>
     </div>

@@ -5140,17 +5140,25 @@ canvas {
 }
 
 .service-details__benefits-title {
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 800;
     line-height: 40px;
     margin-bottom: 36px;
     margin-top: -11px;
 }
-
+.service_list{
+    font-weight: bold;
+}
+li::marker{
+    font-weight: bold;
+    color:#000;
+    font-size: 15px;
+}
 .service-details__benefits-text {
-    font-size: 20px;
+    /* font-size: 20px; */
+    text-align: justify;
     margin: 0;
-    color: var(--thm-primary);
+    /* color: var(--thm-primary); */
 }
 
 .service-details__benefits-list {
@@ -6699,3 +6707,5 @@ canvas {
     border: none;
     box-shadow: none;
 }
+.accordion-item:last-of-type {
+    margin-bottom: 20px;}
