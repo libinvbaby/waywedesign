@@ -92,10 +92,10 @@ const Menu = () => {
                   </ul>
                 </li>
                 <li className="dropdown">
-                  <Link to=""> Our Services</Link>
+                  <Link > Our Services</Link>
                   <ul>
                   <li className="dropdown">
-                  <Link to="">software &platform developments </Link>
+                  <Link to="/software-development-platform">software &platform developments </Link>
                   <ul>
                   <li>
                     <Link to='/dashboard-reporting'>Dashboard Reporting</Link>
@@ -122,7 +122,7 @@ const Menu = () => {
                     <Link to='/assessement-platforms'>Assessment Platforms</Link>
                     </li>
                     <li>
-                      <Link to="payroll-management-system">Payroll Management System</Link>
+                      <Link to="/payroll-management-system">Payroll Management System</Link>
                     </li>
                   </ul>
                   

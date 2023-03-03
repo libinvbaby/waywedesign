@@ -11,6 +11,9 @@ import Hrm from './pages/Hrm';
 import DigitalMarketing from './pages/DigitalMarketing'
 import SEO from './pages/SEO'
 import SMM from './pages/SMM';
+import GoogleAds from './pages/GoogleAds'
+import GraphicDesigning from './pages/GraphicDesigning';
+import SoftwareDevelopmentPlatform from './pages/SoftwarePlatformDevelopment';
 
 const App = () => {
   useEffect(()=>{
@@ -33,6 +36,9 @@ const App = () => {
         <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
         <Route path='/search-engine-optimization' element={<SEO/>}/>
         <Route path='/social-media-marketing' element={<SMM/>}/>
+        <Route path='/google-ads' element={<GoogleAds/>}/>
+        <Route path='/graphic-designing' element={<GraphicDesigning/>}/>
+        <Route path='/software-development-platform' element={<SoftwareDevelopmentPlatform/>}/>
         </Routes>
       </Router>
     </div>

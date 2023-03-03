@@ -38,7 +38,7 @@ const DigitalMarketing = () => {
       <section className="service-details">
         <div className="container">
           <div className="row">
-            <div className="col-xl-8 col-lg-7">
+            <div className="col-xl-12 col-lg-12">
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
@@ -73,9 +73,9 @@ const DigitalMarketing = () => {
                
               </div>
             </div>
-            <div className="col-xl-4 col-lg-5">
+            {/* <div className="col-xl-4 col-lg-5">
               <ServiceSideMenu />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
