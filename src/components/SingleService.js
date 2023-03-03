@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const SingleService = (props) => {
+  
   return (
     <>
     
@@ -16,7 +17,7 @@ const SingleService = (props) => {
                     <span className="icon-conversation" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link to={`http://localhost:3000/${props.link}`}>
+                    <Link to={`https://waywedesign.netlify.app/${props.link}`}>
                      {props.serviceTitle}
                     </Link>
                   </h3>
@@ -24,7 +25,7 @@ const SingleService = (props) => {
                    {props.serviceDesc}
                   </p>
                   <div className="services-one__arrow">
-                    <Link to={`http://localhost:3000/${props.link}`}>
+                    <Link to={`https://waywedesign.netlify.app/${props.link}`}>
                       <span className="icon-right-arrow" />
                     </Link>
                   </div>

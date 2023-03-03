@@ -5,6 +5,7 @@ import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
 const SMM = () => {
+    
     const SmmFaq = [
         {
           eventkey: 0,
