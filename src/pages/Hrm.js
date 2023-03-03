@@ -171,6 +171,7 @@ const Hrm = () => {
                     ability to scale your workforce quickly.
                   </p>
                   <br/>
+                  
                   {HrmFaq.map((data) => {
                     return (
                       <AccordionFaq

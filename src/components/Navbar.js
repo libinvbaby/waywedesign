@@ -141,11 +141,9 @@ const Menu = () => {
                           <li>
                             <Link to="/google-ads">Google Ads</Link>
                           </li>
+                          
                           <li>
-                            <Link to="/ppc">PPC</Link>
-                          </li>
-                          <li>
-                            <Link className="graphic-designing">Graphic Designing</Link>
+                            <Link to="/graphic-designing">Graphic Designing</Link>
                           </li>
                         </ul>
                      
