@@ -14,6 +14,16 @@ import SMM from './pages/SMM';
 import GoogleAds from './pages/GoogleAds'
 import GraphicDesigning from './pages/GraphicDesigning';
 import SoftwareDevelopmentPlatform from './pages/SoftwarePlatformDevelopment';
+import DashboardReporting from './pages/DashboardReporting'
+import MobileAppDevelopment from './pages/MobileAppDevelopment'
+import PenTesting from './pages/PenTesting';
+import WebDevelopment from './pages/WebDevelopment';
+import IotDevelopment from './pages/IotDevelopment'
+import Media from './pages/Media'
+import RetailAndEcommerce from './pages/RetailAndEcommerce'
+import AssessementPlatforms from './pages/AssessementPlatforms'
+import PayrollManagementSoftwares from './pages/PayrollManagementSoftwares'
+import Contact from './pages/Contact'
 
 const App = () => {
   useEffect(()=>{
@@ -39,6 +49,16 @@ const App = () => {
         <Route path='/google-ads' element={<GoogleAds/>}/>
         <Route path='/graphic-designing' element={<GraphicDesigning/>}/>
         <Route path='/software-development-platform' element={<SoftwareDevelopmentPlatform/>}/>
+        <Route path='/dashboard-reporting' element={<DashboardReporting/>}/>
+        <Route path='/mobile-app-development' element={<MobileAppDevelopment/>}/>
+        <Route path='/pen-testing' element={<PenTesting/>}/>
+        <Route path='/web-development' element={<WebDevelopment/>}/>
+        <Route path='/iot-development' element={<IotDevelopment/>}/>
+        <Route path='/media' element={<Media/>}/>
+        <Route path='/retail-and-ecommerce' element={<RetailAndEcommerce/>}/>
+        <Route path='/assessement-platforms' element={<AssessementPlatforms/>}/>
+        <Route path='/payroll-management-softwares' element={<PayrollManagementSoftwares/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </Router>
     </div>

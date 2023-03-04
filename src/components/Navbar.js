@@ -122,7 +122,7 @@ const Menu = () => {
                     <Link to='/assessement-platforms'>Assessment Platforms</Link>
                     </li>
                     <li>
-                      <Link to="/payroll-management-system">Payroll Management System</Link>
+                      <Link to="/payroll-management-softwares">Payroll Management Softwares</Link>
                     </li>
                   </ul>
                   
