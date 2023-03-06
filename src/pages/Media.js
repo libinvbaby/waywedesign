@@ -4,12 +4,14 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import Accordion from 'react-bootstrap/Accordion';
+import MobileMenu from "../components/MobileMenu";
 
 const Media = () => {
     
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="media" subtitle="MEDIA" />
 

@@ -4,6 +4,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 import ServiceSideMenu from "../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 
 const GraphicDesigning = () => {
   const Faq = [
@@ -36,7 +37,7 @@ const GraphicDesigning = () => {
   return (
     <>
       <Menu />
-
+      <MobileMenu/>
       <Breadcrumbs pageurl="graphic-designing" subtitle="GRAPHIC DESIGNING" />
 
       <section className="service-details">

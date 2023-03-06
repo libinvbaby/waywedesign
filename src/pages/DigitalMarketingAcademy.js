@@ -2,6 +2,7 @@ import React from "react";
 import AccordionFaq from "../components/Accordion";
 import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
+import MobileMenu from "../components/MobileMenu";
 import Menu from "../components/Navbar";
 import ServiceSideMenu from "../components/ServiceSideMenu";
 
@@ -53,6 +54,7 @@ const digitalMarketingAcademy = () => {
   return (
     <>
       <Menu />
+      <MobileMenu/>
       <Breadcrumbs
         pageurl="digital-marketing-academy"
         subtitle="DIGITAL MARKETING ACADEMY"

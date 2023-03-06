@@ -17,20 +17,18 @@ import {
   MDBDropdownLink,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import "../components/NavStyle.css";
 
-export default function NewMenu() {
+export default function MobileMenu() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" light bgColor="light">
+    <MDBNavbar className="MDBNavbar" expand="lg" light bgColor="light">
       <MDBContainer>
         <MDBNavbarBrand href="#">
-          <Navbar.Brand>
+        
             <img width="150px" src="assets/images/logo-wwd.png" alt />
-          </Navbar.Brand>
+          
         </MDBNavbarBrand>
 
         <MDBNavbarToggler

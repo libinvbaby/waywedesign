@@ -4,6 +4,7 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 
 const IotDevelopment = () => {
   const IotDevelopmentFaq = [
@@ -46,7 +47,7 @@ const IotDevelopment = () => {
   return (
     <>
       <Menu />
-
+      <MobileMenu/>
       <Breadcrumbs pageurl="iot-evelopment" subtitle="IOT DEVELOPMENT" />
 
       <section className="service-details">

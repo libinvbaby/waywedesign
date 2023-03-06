@@ -3,13 +3,14 @@ import Menu from "./../components/Navbar";
 import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
+import MobileMenu from "../components/MobileMenu";
 
 const WebDevelopment = () => {
    
   return (
     <>
       <Menu />
-
+      <MobileMenu/>
       <Breadcrumbs pageurl="web-development" subtitle="WEB DEVELOPMENT" />
 
       <section className="service-details">

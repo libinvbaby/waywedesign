@@ -4,6 +4,7 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 const GoogleAds = () => {
     
     const GoogleAdsFaq = [
@@ -43,6 +44,7 @@ const GoogleAds = () => {
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="google-ads" subtitle="GOOGLE ADS/PPC" />
 

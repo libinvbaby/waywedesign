@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcrumbs from "../components/Breadcrumbs";
+import MobileMenu from "../components/MobileMenu";
 import ServiceSideMenu from "../components/ServiceSideMenu";
 import Footer from "./../components/Footer";
 import Menu from "./../components/Navbar";
@@ -32,6 +33,7 @@ const DigitalMarketing = () => {
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="digital-marketing" subtitle="Digital Marketing" />
 

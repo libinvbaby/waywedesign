@@ -4,6 +4,7 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 const SEO = () => {
   
     const SeoFaq = [
@@ -43,6 +44,7 @@ const SEO = () => {
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="search-engine-optimization" subtitle="SEARCH ENGINE OPTIMIZATION" />
 

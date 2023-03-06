@@ -5,12 +5,14 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 import ServiceSideMenu from "../components/ServiceSideMenu";
 import Accordion from 'react-bootstrap/Accordion';
+import MobileMenu from "../components/MobileMenu";
 
 const  PayrollManagementSoftwares = () => {
     
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl=" payroll-management-softwares" subtitle="PAYROLL MANAGEMENT SOFTWARES" />
 

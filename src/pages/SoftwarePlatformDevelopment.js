@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcrumbs from "../components/Breadcrumbs";
+import MobileMenu from "../components/MobileMenu";
 import ServiceSideMenu from "../components/ServiceSideMenu";
 import Footer from "./../components/Footer";
 import Menu from "./../components/Navbar";
@@ -57,7 +58,7 @@ const SoftwareDevelopmentPlatform = () => {
   return (
     <>
       <Menu />
-
+      <MobileMenu/>
       <Breadcrumbs pageurl="software-development-platform" subtitle="SOFTWARE & PLATFORM DEVELOPMENT" />
 
       <section className="service-details">

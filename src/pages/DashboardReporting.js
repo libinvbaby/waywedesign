@@ -3,12 +3,14 @@ import Menu from "./../components/Navbar";
 import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
+import MobileMenu from "../components/MobileMenu";
 
 const DashboardReporting = () => {
    
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="dashboard-reporting" subtitle="DASHBOARD REPORTING" />
 

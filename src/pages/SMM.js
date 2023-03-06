@@ -4,6 +4,7 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 const SMM = () => {
     
     const SmmFaq = [
@@ -43,7 +44,7 @@ const SMM = () => {
   return (
     <>
       <Menu />
-
+      <MobileMenu/>
       <Breadcrumbs pageurl="social-media-marketing" subtitle="SOCIAL MEDIA MARKETING " />
 
       <section className="service-details">

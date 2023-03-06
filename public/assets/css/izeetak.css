@@ -6709,3 +6709,18 @@ li::marker{
 }
 .accordion-item:last-of-type {
     margin-bottom: 20px;}
+
+    @media only screen and (min-width: 768px){
+        .MDBNavbar{
+            display: none!important;
+        }
+        
+    }
+    @media only screen and (max-width: 768px){
+        .MDBNavbar{
+            display: block;
+        }
+        .full_width_nav{
+            display: none!important;
+        }
+    }

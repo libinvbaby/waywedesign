@@ -4,6 +4,7 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 
 const Hrm = () => {
   const HrmFaq = [
@@ -37,6 +38,7 @@ const Hrm = () => {
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="hrm" subtitle="HRM" />
 

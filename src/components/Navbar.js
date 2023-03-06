@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Menu = () => {
   
   return (
-    <div>
+    <div class="full_width_nav">
        <header className="main-header clearfix">
     <div className="main-header__top clearfix">
       <div className="main-header__top-inner clearfix">
@@ -70,12 +70,7 @@ const Menu = () => {
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto"> 
-              {/* <Navbar.Toggle aria-controls="basic-navbar-nav"  href="#" className="mobile-nav__toggler">
-                <i className="fa fa-bars" />
-              </Navbar.Toggle> */}
-                          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-                          <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
-
+            
               <ul className="main-menu__list">
                 <li>
                   <Link to="/">Home</Link>

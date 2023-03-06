@@ -3,12 +3,14 @@ import Menu from "./../components/Navbar";
 import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
+import MobileMenu from "../components/MobileMenu";
 
 const MobileAppDevelopment = () => {
    
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="mobile-app-development" subtitle="MOBILE-APPDEVELOPMENT" />
 

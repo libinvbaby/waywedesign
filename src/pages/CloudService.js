@@ -4,6 +4,7 @@ import ServiceSideMenu from "../components/ServiceSideMenu";
 import Footer from "./../components/Footer";
 import Menu from "./../components/Navbar";
 import AccordionFaq from "../components/Accordion";
+import MobileMenu from "../components/MobileMenu";
 
 const CloudService = () => {
   const CloudServiceData = [
@@ -42,6 +43,7 @@ const CloudService = () => {
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="cloud-service" subtitle="Cloud Service" />
 

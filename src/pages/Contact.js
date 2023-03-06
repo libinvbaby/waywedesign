@@ -1,13 +1,14 @@
 import React from 'react'
 import Breadcrumbs from '../components/Breadcrumbs'
 import Footer from '../components/Footer'
+import MobileMenu from '../components/MobileMenu'
 import Menu from '../components/Navbar'
 
 const Contact = () => {
   return (
    <div className="page-wrapper">
   <Menu/>
-  
+  <MobileMenu/>
   <Breadcrumbs  pageurl="contact" subtitle="Contact" />
   {/*Page Header End*/}
   {/*Contact Page Start*/}

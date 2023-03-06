@@ -4,12 +4,14 @@ import Breadcrumbs from "./../components/Breadcrumbs";
 import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import { Accordion } from 'react-bootstrap';
+import MobileMenu from '../components/MobileMenu';
 
 const AssessementPlatforms  = () => {
    
   return (
     <>
       <Menu />
+      <MobileMenu/>
 
       <Breadcrumbs pageurl="assessement-platforms" subtitle="ASSESSMENT PLATFORMS" />
 
