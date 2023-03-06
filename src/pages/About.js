@@ -9,9 +9,10 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <motion.div
-    initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }}
+    initial={{ opacity: 0, x: 100 }}
+    animate={{ opacity: 1, x: 0 }}
+    exit={{ opacity: 0, x: 100 }}
+    transition={{ duration: 1 }}
     
     >
       <Helmet>
