@@ -62,10 +62,10 @@ export default function NewMenu() {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem>
-                    <MDBDropdownLink href="#">
+                    <MDBDropdownLink href="">
                       {" "}
                       <Link to="/software-development-platform">
-                        software &platform developments{" "}
+                        Software & Platform Developments{" "}
                       </Link>
                     </MDBDropdownLink>
                     <ul className="dropdown-menu dropdown-submenu">
@@ -132,7 +132,7 @@ export default function NewMenu() {
                     </ul>
                   </MDBDropdownItem>
                   <MDBDropdownItem>
-                    <MDBDropdownLink href="#">
+                    <MDBDropdownLink href="">
                       {" "}
                       <Link to="/digital-marketing">Digital Marketing</Link>
                     </MDBDropdownLink>
