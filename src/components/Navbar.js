@@ -90,7 +90,7 @@ const Menu = () => {
                   <Link > Our Services</Link>
                   <ul>
                   <li className="dropdown">
-                  <Link to="/software-development-platform">software &platform developments </Link>
+                  <Link to="/software-development-platform">Software & Platform Developments </Link>
                   <ul>
                   <li>
                     <Link to='/dashboard-reporting'>Dashboard Reporting</Link>

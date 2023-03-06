@@ -1,20 +1,28 @@
-
- import React from "react";
-import Menu from "../components/Navbar";
-import Breadcrumbs from "../components/Breadcrumbs";
-import Footer from "../components/Footer";
+import React from "react";
 import ServiceSideMenu from "../components/ServiceSideMenu";
-import Accordion from 'react-bootstrap/Accordion';
-import MobileMenu from "../components/MobileMenu";
+import Accordion from "react-bootstrap/Accordion";
+import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
+import Breadcrumbs from './../components/Breadcrumbs';
 
-const  PayrollManagementSoftwares = () => {
-    
+const PayrollManagementSoftwares = () => {
   return (
-    <>
-      <Menu />
-      <MobileMenu/>
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 1 }}
+    >
+      <Helmet>
+        <title>Payroll Management Software - Waywedesign</title>
+        <meta name="description" content="payroll Management Software" />
+      </Helmet>
+      
 
-      <Breadcrumbs pageurl=" payroll-management-softwares" subtitle="PAYROLL MANAGEMENT SOFTWARES" />
+      <Breadcrumbs
+        pageurl=" payroll-management-softwares"
+        subtitle="PAYROLL MANAGEMENT SOFTWARES"
+      />
 
       <section className="service-details">
         <div className="container">
@@ -28,58 +36,130 @@ const  PayrollManagementSoftwares = () => {
                   />
                 </div>
                 <div className="service-details__content">
-                  <h3 className="service-details__title">PAYROLL MANAGEMENT SOFTWARES</h3>
+                  <h3 className="service-details__title">
+                    PAYROLL MANAGEMENT SOFTWARES
+                  </h3>
                   <p className="service-details__text ">
-                  Organizations require comprehensive information about their employees, and it can be challenging to manage it all in one place. Our HR management system offers a solution by allowing you to centralize employee data, including job titles and salaries, within the HR database. It enables compliance with government regulations, company policies, self-service, and payroll, thus improving HR management efficiency. With an in-depth understanding of the global HR software market, our effective HR system stands out as unparalleled.<br/>
-An accurate payroll management software is crucial for businesses seeking to keep track of employee information, financial records, and regional trends. Our software provides secure storage for sensitive data such as personal information, employee records, financial details, and social security numbers.<br/>
-Based on the type, payroll software can be developed for:
-<ol>
-    <li>ON.PREMISE PAYROLL MANAGEMENT SOFTWARE</li>
-    <li>CLOUD HOSTED PAYROLL MANAGEMENT SOFTWARE</li>
-    <li>SAAS PAYROLL MANAGEMENT SOFTWARE</li>
-</ol>
-
+                    Organizations require comprehensive information about their
+                    employees, and it can be challenging to manage it all in one
+                    place. Our HR management system offers a solution by
+                    allowing you to centralize employee data, including job
+                    titles and salaries, within the HR database. It enables
+                    compliance with government regulations, company policies,
+                    self-service, and payroll, thus improving HR management
+                    efficiency. With an in-depth understanding of the global HR
+                    software market, our effective HR system stands out as
+                    unparalleled.
+                    <br />
+                    An accurate payroll management software is crucial for
+                    businesses seeking to keep track of employee information,
+                    financial records, and regional trends. Our software
+                    provides secure storage for sensitive data such as personal
+                    information, employee records, financial details, and social
+                    security numbers.
+                    <br />
+                    Based on the type, payroll software can be developed for:
+                    <ol>
+                      <li>ON.PREMISE PAYROLL MANAGEMENT SOFTWARE</li>
+                      <li>CLOUD HOSTED PAYROLL MANAGEMENT SOFTWARE</li>
+                      <li>SAAS PAYROLL MANAGEMENT SOFTWARE</li>
+                    </ol>
                   </p>
                 </div>
-                <br/>
-                 <h3 className="service-details__title ">FAQ</h3>
-                 <Accordion defaultActiveKey="0" className="service-details__faq">
-      
-      <Accordion.Item eventKey="0" className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
-        <Accordion.Header className="accrodion-title"><h4>What is payroll management software?</h4> </Accordion.Header>
-        <Accordion.Body className="accrodion-content">
-        Payroll management software is a type of software solution designed to help businesses track and manage their employee financial information, including salaries, bonuses, deductions, taxes, and other compensation-related information. The software automates many of the manual and time-consuming tasks involved in payroll processing and provides a centralized repository for storing and accessing employee information.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1" className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
-        <Accordion.Header className="accrodion-title"><h4>What are the benefits of using payroll management software?</h4> </Accordion.Header>
-        <Accordion.Body className="accrodion-content">
-       <ul>
-        <li>Increased accuracy and efficiency in payroll processing</li>
-        <li>Automated calculation of taxes, deductions, and other payroll-related information</li>
-        <li>Improved security and privacy for employee financial information</li>
-        <li>Streamlined record-keeping and reporting</li>
-        <li>Enhanced compliance with government regulations and reporting requirements</li>
-        <li>Better visibility into payroll trends and costs for decision-making purposes.</li>
-       </ul>
-        </Accordion.Body>
-      </Accordion.Item>
-     
-      <Accordion.Item eventKey="2" className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
-        <Accordion.Header className="accrodion-title"><h4>What features does typical payroll management software offer?</h4> </Accordion.Header>
-        <Accordion.Body className="accrodion-content">
-          <ul>
-            <li>Automated payroll processing and calculation</li>
-            <li>Secure storage and management of employee financial information</li>
-            <li>Integration with time and attendance tracking systems</li>
-            <li>Reporting and data visualization tools</li>
-            <li>Customizable tax and deduction calculations</li>
-            <li>Compliance with government regulations and reporting requirements.</li>
-            
-          </ul>
-        </Accordion.Body>
-      </Accordion.Item>
-      </Accordion>
+                <br />
+                <h3 className="service-details__title ">FAQ</h3>
+                <Accordion
+                  defaultActiveKey="0"
+                  className="service-details__faq"
+                >
+                  <Accordion.Item
+                    eventKey="0"
+                    className="accrodion-grp faq-one-accrodion"
+                    data-grp-name="faq-one-accrodion"
+                  >
+                    <Accordion.Header className="accrodion-title">
+                      <h4>What is payroll management software?</h4>{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className="accrodion-content">
+                      Payroll management software is a type of software solution
+                      designed to help businesses track and manage their
+                      employee financial information, including salaries,
+                      bonuses, deductions, taxes, and other compensation-related
+                      information. The software automates many of the manual and
+                      time-consuming tasks involved in payroll processing and
+                      provides a centralized repository for storing and
+                      accessing employee information.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item
+                    eventKey="1"
+                    className="accrodion-grp faq-one-accrodion"
+                    data-grp-name="faq-one-accrodion"
+                  >
+                    <Accordion.Header className="accrodion-title">
+                      <h4>
+                        What are the benefits of using payroll management
+                        software?
+                      </h4>{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className="accrodion-content">
+                      <ul>
+                        <li>
+                          Increased accuracy and efficiency in payroll
+                          processing
+                        </li>
+                        <li>
+                          Automated calculation of taxes, deductions, and other
+                          payroll-related information
+                        </li>
+                        <li>
+                          Improved security and privacy for employee financial
+                          information
+                        </li>
+                        <li>Streamlined record-keeping and reporting</li>
+                        <li>
+                          Enhanced compliance with government regulations and
+                          reporting requirements
+                        </li>
+                        <li>
+                          Better visibility into payroll trends and costs for
+                          decision-making purposes.
+                        </li>
+                      </ul>
+                    </Accordion.Body>
+                  </Accordion.Item>
+
+                  <Accordion.Item
+                    eventKey="2"
+                    className="accrodion-grp faq-one-accrodion"
+                    data-grp-name="faq-one-accrodion"
+                  >
+                    <Accordion.Header className="accrodion-title">
+                      <h4>
+                        What features does typical payroll management software
+                        offer?
+                      </h4>{" "}
+                    </Accordion.Header>
+                    <Accordion.Body className="accrodion-content">
+                      <ul>
+                        <li>Automated payroll processing and calculation</li>
+                        <li>
+                          Secure storage and management of employee financial
+                          information
+                        </li>
+                        <li>
+                          Integration with time and attendance tracking systems
+                        </li>
+                        <li>Reporting and data visualization tools</li>
+                        <li>Customizable tax and deduction calculations</li>
+                        <li>
+                          Compliance with government regulations and reporting
+                          requirements.
+                        </li>
+                      </ul>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
               </div>
             </div>
             <div className="col-xl-4 col-lg-5">
@@ -88,9 +168,8 @@ Based on the type, payroll software can be developed for:
           </div>
         </div>
       </section>
-      <Footer />
-    </>
-  )
-}
+    </motion.div>
+  );
+};
 
-export default  PayrollManagementSoftwares
+export default PayrollManagementSoftwares;

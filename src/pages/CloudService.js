@@ -1,10 +1,9 @@
 import React from "react";
 import Breadcrumbs from "../components/Breadcrumbs";
 import ServiceSideMenu from "../components/ServiceSideMenu";
-import Footer from "./../components/Footer";
-import Menu from "./../components/Navbar";
 import AccordionFaq from "../components/Accordion";
-import MobileMenu from "../components/MobileMenu";
+import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 const CloudService = () => {
   const CloudServiceData = [
@@ -41,9 +40,17 @@ const CloudService = () => {
     },
   ];
   return (
-    <>
-      <Menu />
-      <MobileMenu/>
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 1 }}
+    >
+      <Helmet>
+        <title>Cloud Service - Waywedesign</title>
+        <meta name="description" content="Cloud Service" />
+      </Helmet>
+    
 
       <Breadcrumbs pageurl="cloud-service" subtitle="Cloud Service" />
 
@@ -112,8 +119,7 @@ const CloudService = () => {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+    </motion.div>
   );
 };
 

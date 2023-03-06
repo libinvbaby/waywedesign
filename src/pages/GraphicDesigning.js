@@ -1,10 +1,10 @@
 import React from "react";
-import Menu from "../components/Navbar";
 import Breadcrumbs from "../components/Breadcrumbs";
-import Footer from "../components/Footer";
 import ServiceSideMenu from "../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
-import MobileMenu from "../components/MobileMenu";
+import { Helmet } from "react-helmet";
+import {motion} from 'framer-motion'
+
 
 const GraphicDesigning = () => {
   const Faq = [
@@ -30,14 +30,20 @@ const GraphicDesigning = () => {
     },
     {
       eventkey: 4,
-      title:"How do I receive the final design files?",
+      title: "How do I receive the final design files?",
       desc: "The final design files will be delivered to you in the format of your choice (e.g. JPG, PNG, PDF, etc.).",
     },
   ];
   return (
-    <>
-      <Menu />
-      <MobileMenu/>
+    <motion.div  initial={{opacity:0, x: 100 }}
+    animate={{ opacity:1, x: 0 }}
+    exit={{ opacity:0, x: 100}}
+    transition={{ duration: 1 }}>
+      <Helmet>
+        <title>Graphic Designing - Waywedesign</title>
+        <meta name="description" content="Graphic designing" />
+      </Helmet>
+      
       <Breadcrumbs pageurl="graphic-designing" subtitle="GRAPHIC DESIGNING" />
 
       <section className="service-details">
@@ -54,57 +60,71 @@ const GraphicDesigning = () => {
                 <div className="service-details__content">
                   <h3 className="service-details__title">GRAPHIC DESIGNING</h3>
                   <p className="service-details__text ">
-                  We offer professional graphic design services for all your marketing and branding needs. Our team of experienced designers creates visually appealing and effective designs to help you stand out in a competitive market. Our services include:
+                    We offer professional graphic design services for all your
+                    marketing and branding needs. Our team of experienced
+                    designers creates visually appealing and effective designs
+                    to help you stand out in a competitive market. Our services
+                    include:
                   </p>
                 </div>
                 <div class="service-details__benefits">
                   <div class="row">
                     <div cl ass="col-xl-6">
-                        <p class="service-details__benefits-text">
-                          
-                          <ul>
-                            <li>
-                              <h6 class="service_list">Poster Design</h6>
-                              <p>
-                              Our posters are designed to grab the attention of your target audience and convey your message effectively. We create posters that are not only visually appealing but also communicate your brand values and messaging.
-                              </p>
-                            </li>
-                            <li>
-                              <h6 class="service_list">
-                              Brochure Design
-                              </h6>
-                              <p>
-                              Our brochures are designed to give a comprehensive overview of your products and services. We create brochures that are visually appealing, easy to read, and effectively communicate your brand message.
-                              </p>
-                            </li>
-                            <li>
-                              <h6 class="service_list">
-                              Visiting Card Design
-                               
-                              </h6>
-                              <p>
-                              Our visiting cards are designed to make a lasting impression on your clients and customers. We create visiting cards that are professional, visually appealing, and effectively communicate your brand values and messaging
-                              </p>
-                            </li>
-                            <li>
-                              <h6 class="service_list">
-                              Logo Design
-                               
-                              </h6>
-                              <p>
-                              Our logos are designed to reflect the unique identity of your brand. We create logos that are visually appealing, memorable, and effectively communicate your brand values and messaging.
-                              </p>
-                            </li>
-                          </ul>
-                          Our goal is to provide you with high-quality graphic design services that meet your needs and exceed your expectations. Contact us today to learn more about how we can help you achieve your marketing and branding goals.
-                        </p>
-                      </div>
-                      </div>
+                      <p class="service-details__benefits-text">
+                        <ul>
+                          <li>
+                            <h6 class="service_list">Poster Design</h6>
+                            <p>
+                              Our posters are designed to grab the attention of
+                              your target audience and convey your message
+                              effectively. We create posters that are not only
+                              visually appealing but also communicate your brand
+                              values and messaging.
+                            </p>
+                          </li>
+                          <li>
+                            <h6 class="service_list">Brochure Design</h6>
+                            <p>
+                              Our brochures are designed to give a comprehensive
+                              overview of your products and services. We create
+                              brochures that are visually appealing, easy to
+                              read, and effectively communicate your brand
+                              message.
+                            </p>
+                          </li>
+                          <li>
+                            <h6 class="service_list">Visiting Card Design</h6>
+                            <p>
+                              Our visiting cards are designed to make a lasting
+                              impression on your clients and customers. We
+                              create visiting cards that are professional,
+                              visually appealing, and effectively communicate
+                              your brand values and messaging
+                            </p>
+                          </li>
+                          <li>
+                            <h6 class="service_list">Logo Design</h6>
+                            <p>
+                              Our logos are designed to reflect the unique
+                              identity of your brand. We create logos that are
+                              visually appealing, memorable, and effectively
+                              communicate your brand values and messaging.
+                            </p>
+                          </li>
+                        </ul>
+                        Our goal is to provide you with high-quality graphic
+                        design services that meet your needs and exceed your
+                        expectations. Contact us today to learn more about how
+                        we can help you achieve your marketing and branding
+                        goals.
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="pb-3">
                   <h3 className="service-details__title ">FAQ</h3>
-                             
+
                   {Faq.map((data) => {
                     return (
                       <AccordionFaq
@@ -123,8 +143,7 @@ const GraphicDesigning = () => {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+    </motion.div>
   );
 };
 

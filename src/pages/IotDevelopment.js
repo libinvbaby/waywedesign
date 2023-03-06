@@ -1,10 +1,9 @@
 import React from "react";
-import Menu from "./../components/Navbar";
 import Breadcrumbs from "./../components/Breadcrumbs";
-import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
-import MobileMenu from "../components/MobileMenu";
+import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 const IotDevelopment = () => {
   const IotDevelopmentFaq = [
@@ -30,24 +29,32 @@ const IotDevelopment = () => {
     },
     {
       eventkey: 4,
-      title:"What is Agile development?",
+      title: "What is Agile development?",
       desc: "Agile development is a iterative and flexible approach to software development that emphasizes collaboration, customer involvement, and rapid iteration.",
     },
     {
       eventkey: 4,
-      title:"What is Scrum in software development?",
+      title: "What is Scrum in software development?",
       desc: "Scrum is an Agile framework for managing and completing complex projects. It emphasizes collaboration, flexibility, and continuous improvement.",
     },
     {
       eventkey: 4,
-      title:"What are the popular software development platforms?",
+      title: "What are the popular software development platforms?",
       desc: "Popular software development platforms include Windows, Linux, macOS, Android, and iOS.",
     },
   ];
   return (
-    <>
-      <Menu />
-      <MobileMenu/>
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 1 }}
+    >
+      <Helmet>
+        <title>IOT Development - WayWeDesign</title>
+        <meta name="description" content="IOT Development" />
+      </Helmet>
+      
       <Breadcrumbs pageurl="iot-evelopment" subtitle="IOT DEVELOPMENT" />
 
       <section className="service-details">
@@ -64,32 +71,30 @@ const IotDevelopment = () => {
                 <div className="service-details__content">
                   <h3 className="service-details__title">IOT DEVELOPMENT</h3>
                   <p className="service-details__text ">
-                  Our embedded device development services include the latest technology and best practices to ensure high quality products for our customers. We have a team of professionals with industrial experience in the latest technologies to help our customers transform their innovative ideas into distinct products. We also provide support and development services for embedded products and real-time operating systems-based products with high accuracy.
+                    Our embedded device development services include the latest
+                    technology and best practices to ensure high quality
+                    products for our customers. We have a team of professionals
+                    with industrial experience in the latest technologies to
+                    help our customers transform their innovative ideas into
+                    distinct products. We also provide support and development
+                    services for embedded products and real-time operating
+                    systems-based products with high accuracy.
                   </p>
                 </div>
                 <div class="service-details__benefits">
                   <div class="row">
                     <div cl ass="col-xl-6">
                       <div class="service-details__benefits-text">
-                       
-                       
-                       
                         <p class="service-details__benefits-text">
-                           <ul>
+                          <ul>
                             <li>
                               <h6 class="service_list"> IOT PROJECTS</h6>
-                             
                             </li>
                             <li>
-                              <h6 class="service_list">
-                              HOME AUTOMATION
-                              </h6>
-                              </li>
+                              <h6 class="service_list">HOME AUTOMATION</h6>
+                            </li>
                             <li>
-                              <h6 class="service_list">
-                              PCB DESIGNING
-                              </h6>
-                            
+                              <h6 class="service_list">PCB DESIGNING</h6>
                             </li>
                           </ul>
                         </p>
@@ -99,7 +104,6 @@ const IotDevelopment = () => {
                 </div>
 
                 <div className="pb-3">
-                                  
                   {IotDevelopmentFaq.map((data) => {
                     return (
                       <AccordionFaq
@@ -118,8 +122,7 @@ const IotDevelopment = () => {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+    </motion.div>
   );
 };
 

@@ -1,10 +1,10 @@
 import React from "react";
 import AccordionFaq from "../components/Accordion";
 import Breadcrumbs from "../components/Breadcrumbs";
-import Footer from "../components/Footer";
-import MobileMenu from "../components/MobileMenu";
-import Menu from "../components/Navbar";
+
 import ServiceSideMenu from "../components/ServiceSideMenu";
+import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 const digitalMarketingAcademy = () => {
   const MarketingAcademyFaq = [
@@ -52,9 +52,17 @@ const digitalMarketingAcademy = () => {
     },
   ];
   return (
-    <>
-      <Menu />
-      <MobileMenu/>
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 1 }}
+    >
+      <Helmet>
+        <title>Digital Marketing Academy - Waywedesign</title>
+        <meta name="description" content="Digital Marketing Academy" />
+      </Helmet>
+     
       <Breadcrumbs
         pageurl="digital-marketing-academy"
         subtitle="DIGITAL MARKETING ACADEMY"
@@ -80,9 +88,10 @@ const digitalMarketingAcademy = () => {
                     The scope of digital marketing has greatly expanded in
                     recent years, as more and more businesses recognize the
                     importance of having a strong online presence. With the rise
-                    of e-commerce and the increasing use of the internet for
-                    research and communication, digital marketing has become a
-                    crucial tool for reaching and engaging with customers.
+                    import {Helmet} from 'react-helmet'; of e-commerce and the
+                    increasing use of the internet for research and
+                    communication, digital marketing has become a crucial tool
+                    for reaching and engaging with customers.
                     <br />
                     Given the growing demand for digital marketing skills and
                     the rapid pace of change in the industry, it's no surprise
@@ -123,8 +132,8 @@ const digitalMarketingAcademy = () => {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+     
+    </motion.div>
   );
 };
 

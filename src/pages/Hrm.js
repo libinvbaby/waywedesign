@@ -1,10 +1,9 @@
 import React from "react";
-import Menu from "./../components/Navbar";
 import Breadcrumbs from "./../components/Breadcrumbs";
-import Footer from "./../components/Footer";
 import ServiceSideMenu from "./../components/ServiceSideMenu";
 import AccordionFaq from "../components/Accordion";
-import MobileMenu from "../components/MobileMenu";
+import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 const Hrm = () => {
   const HrmFaq = [
@@ -36,9 +35,17 @@ const Hrm = () => {
     },
   ];
   return (
-    <>
-      <Menu />
-      <MobileMenu/>
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 100 }}
+      transition={{ duration: 1 }}
+    >
+      <Helmet>
+        <title>HRM - Waywedesign</title>
+        <meta name="description" content="HRM" />
+      </Helmet>
+ 
 
       <Breadcrumbs pageurl="hrm" subtitle="HRM" />
 
@@ -102,10 +109,11 @@ const Hrm = () => {
                           wealth of resources is what make our “managed
                           staffing” program dynamic. Evaluating KPI's (Key
                           Performance Indicators) that are important to our
-                          clients dramatically enhances their productivity
-                          levels by assigning the right people to job tasks. We
-                          follow an intensive recruitment process to ensure that
-                          the best talent is delivered to you.
+                          clients dramatically enhances theimport {Helmet} from
+                          'react-helmet'; ir productivity levels by assigning
+                          the right people to job tasks. We follow an intensive
+                          recruitment process to ensure that the best talent is
+                          delivered to you.
                           <br />
                           <ol>
                             <li>
@@ -135,7 +143,6 @@ const Hrm = () => {
                             </li>
                             <li>
                               <h6 class="service_list">
-                                
                                 SCHEDULING AN INTERVIEW
                               </h6>
                               <p>
@@ -172,8 +179,8 @@ const Hrm = () => {
                     access to a large pool of talented professionals, and the
                     ability to scale your workforce quickly.
                   </p>
-                  <br/>
-                  
+                  <br />
+
                   {HrmFaq.map((data) => {
                     return (
                       <AccordionFaq
@@ -192,8 +199,7 @@ const Hrm = () => {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+    </motion.div>
   );
 };
 
