@@ -13,13 +13,16 @@ import HomeCta from './../components/home/HomeCta';
 // import ProjectsSlider from './../components/home/ProjectsSlider';
 import Footer from './../components/Footer';
 import Menu from './../components/Navbar';
+import BasicExample from "../components/NewMenu";
+import NormalNav from "../components/NormalNav";
 
 
 const Home = () => {
   return (
     <div>
-           <Menu />
-
+      <BasicExample/>
+           {/* <Menu /> */}
+          {/* <NormalNav /> */}
       <div className="page-wrapper">
         
        <Slider />

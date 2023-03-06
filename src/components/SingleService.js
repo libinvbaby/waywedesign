@@ -17,7 +17,7 @@ const SingleService = (props) => {
                     <span className="icon-conversation" />
                   </div>
                   <h3 className="services-one__title">
-                    <Link to={`https://waywedesign.netlify.app/${props.link}`}>
+                    <Link to={`${props.link}`}>
                      {props.serviceTitle}
                     </Link>
                   </h3>
@@ -25,7 +25,7 @@ const SingleService = (props) => {
                    {props.serviceDesc}
                   </p>
                   <div className="services-one__arrow">
-                    <Link to={`https://waywedesign.netlify.app/${props.link}`}>
+                    <Link to={`${props.link}`}>
                       <span className="icon-right-arrow" />
                     </Link>
                   </div>

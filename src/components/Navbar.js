@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
 const Menu = () => {
   
   return (
@@ -67,7 +66,7 @@ const Menu = () => {
               <Navbar.Brand >
                 <img width="150px" src="assets/images/logo-wwd.png" alt />
               </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />  
+            
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto"> 
@@ -75,6 +74,7 @@ const Menu = () => {
                 <i className="fa fa-bars" />
               </Navbar.Toggle> */}
                           {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+                          <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
 
               <ul className="main-menu__list">
                 <li>
@@ -207,6 +207,41 @@ const Menu = () => {
         {/* /.sticky-header__content */}
       </div>
       {/* /.stricky-header */}
+
+    <div className="mobile-nav__wrapper">
+  <div className="mobile-nav__overlay mobile-nav__toggler" />
+  {/* /.mobile-nav__overlay */}
+  <div className="mobile-nav__content">
+    <span className="mobile-nav__close mobile-nav__toggler"><i className="fa fa-times" /></span>
+    <div className="logo-box">
+      <a href="index.html" aria-label="logo image"><img src="assets/images/resources/footer-logo.png" width={155} alt /></a>
+    </div>
+    {/* /.logo-box */}
+    <div className="mobile-nav__container" />
+    {/* /.mobile-nav__container */}
+    <ul className="mobile-nav__contact list-unstyled">
+      <li>
+        <i className="fa fa-envelope" />
+        <a href="mailto:needhelp@packageName__.com">needhelp@izeetak.com</a>
+      </li>
+      <li>
+        <i className="fa fa-phone-alt" />
+        <a href="tel:666-888-0000">666 888 0000</a>
+      </li>
+    </ul>{/* /.mobile-nav__contact */}
+    <div className="mobile-nav__top">
+      <div className="mobile-nav__social">
+        <a href="#" className="fab fa-twitter" />
+        <a href="#" className="fab fa-facebook-square" />
+        <a href="#" className="fab fa-pinterest-p" />
+        <a href="#" className="fab fa-instagram" />
+      </div>{/* /.mobile-nav__social */}
+    </div>{/* /.mobile-nav__top */}
+  </div>
+  {/* /.mobile-nav__content */}
+</div>
+<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
     </div>
   );
 };
