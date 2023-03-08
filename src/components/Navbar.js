@@ -18,8 +18,7 @@ const Menu = () => {
               </div>
               <div className="text">
                 <p>
-                  Way WeDesign, 47/1403A,Ivees, MRERA-69, Chalikkavattom,
-                  Vennala Kochi, Kerala
+                  Way WeDesign, India
                 </p>
               </div>
             </li>
@@ -30,7 +29,7 @@ const Menu = () => {
               <div className="text">
                 <p>
                   <a href="mailto:Contact@waywedesign.com">
-                    Contact@waywedesign.com
+                    contact@waywedesign.com
                   </a>
                 </p>
               </div>
@@ -64,7 +63,7 @@ const Menu = () => {
           <div className="main-menu-wrapper__left clearfix">
             <div className="main-menu-wrapper__logo">
               <Navbar.Brand >
-                <img width="150px" src="assets/images/logo-wwd.png" alt />
+                <img width="170px" src="assets/images/logo-wwd.png" alt />
               </Navbar.Brand>
             
             </div>

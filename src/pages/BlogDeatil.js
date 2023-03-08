@@ -44,19 +44,19 @@ const BlogDeatil = () => {
       <div className="col-xl-8 col-lg-7">
         <div className="news-details__left">
           <div className="news-details__img">
-            <img src={blog.coverPhoto.url} alt />
+            <img src="assets/images/blog/news-details-img-1.jpg" alt />
             <div className="news-details__date-box">
-              <p>{blog.publishedDate}</p>
+              <p>20 <br /> Aug</p>
             </div>
           </div>
           <div className="news-details__content">
             <ul className="list-unstyled news-details__meta">
-              <li><a href="news-details.html"><i className="far fa-user-circle" /> by {blog.author.name}</a></li>
+              <li><a href="news-details.html"><i className="far fa-user-circle" /> by admin</a></li>
               <li><a href="news-details.html"><i className="far fa-comments" /> 2 Comments</a>
               </li>
             </ul>
             <h3 className="news-details__title">{blog.title}</h3>
-            <p className="news-details__text-1">{blog.content.html}</p>
+            <p className="news-details__text-1">{blog.content}</p>
           </div>
           <div className="news-details__bottom">
             <p className="news-details__tags">
@@ -77,7 +77,6 @@ const BlogDeatil = () => {
               <li>What is Holding Back the IT <br /> Solution Industry?</li>
             </ul>
           </div>
-        
         </div>
       </div>
       <div className="col-xl-4 col-lg-5">
@@ -140,17 +139,6 @@ const BlogDeatil = () => {
                 </div>
               </li>
             </ul>
-          </div>
-          <div className="sidebar__single sidebar__tags">
-            <h3 className="sidebar__title">Tags</h3>
-            <div className="sidebar__tags-list">
-              <a href="#" className="thm-btn sidebar__tags-btn">Software</a>
-              <a href="#" className="thm-btn sidebar__tags-btn">cyber</a>
-              <a href="#" className="thm-btn sidebar__tags-btn">IT</a>
-              <a href="#" className="thm-btn sidebar__tags-btn">Computing</a>
-              <a href="#" className="thm-btn sidebar__tags-btn">Consulting</a>
-              <a href="#" className="thm-btn sidebar__tags-btn">Business</a>
-            </div>
           </div>
         </div>
       </div>
