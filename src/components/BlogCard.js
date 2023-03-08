@@ -19,7 +19,7 @@ const BlogCard = ({item}) => {
                         <div className="news-one__single">
                             <div className="news-one__img">
                               <img src={items.coverPhoto.url} alt />
-                              <Link to={items.slug}>
+                              <Link to={`${items.slug}`} >
                                 <span className="news-one__plus" />
                               </Link>
                               <div className="news-one__date-box">
@@ -33,12 +33,12 @@ const BlogCard = ({item}) => {
                                 </li> */}
                               </ul>
                               <h3 className="news-one__title">
-                                <a href="news-details.html">{items.title}</a>
+                                <Link  to={`${items.slug}`}  >{items.title}</Link>
                               </h3>
                               <p className="news-one__text">{items.smalldesc}
                               </p>
                               <div className="news-one__read-more">
-                                <Link to={items.slug} className="news-one__read-more-btn">Read More</Link>
+                                <Link to={`${items.slug}`} className="news-one__read-more-btn">Read More</Link>
                               </div>
                             </div>
                         </div>

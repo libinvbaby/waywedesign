@@ -25,6 +25,7 @@ import Contact from './pages/Contact'
 import Careers from './pages/Careers'
 import Blog from './pages/Blog'
 import { AnimatePresence } from 'framer-motion';
+import BlogDeatil from './pages/BlogDeatil';
 
 const AnimatedRoutes = () => {
     const location = useLocation();
@@ -55,6 +56,8 @@ const AnimatedRoutes = () => {
     <Route path="careers" element={<Careers/>} />
     <Route path="blog" element={<Blog/>} />
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="/blog/:slug" element={<BlogDeatil />} />
+
     </Routes>
     </AnimatePresence>
     )
