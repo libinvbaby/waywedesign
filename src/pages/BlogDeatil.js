@@ -46,18 +46,19 @@ const BlogDeatil = () => {
           <div className="news-details__img">
             <img src={blog.coverPhoto.url} alt />
             <div className="news-details__date-box">
-              <p>{blog.datePublished}</p>
+              <p>{blog.publishedDate}</p>
             </div>
           </div>
           <div className="news-details__content">
             <ul className="list-unstyled news-details__meta">
               <li><a href="news-details.html"><i className="far fa-user-circle" /> by {blog.author.name}</a></li>
-              
+              <li><a href="news-details.html"><i className="far fa-comments" /> 2 Comments</a>
+              </li>
             </ul>
             <h3 className="news-details__title">{blog.title}</h3>
-            <RichText content={blog.content} />
+            <p className="news-details__text-1">{blog.content.html}</p>
           </div>
-          {/* <div className="news-details__bottom">
+          <div className="news-details__bottom">
             <p className="news-details__tags">
               <span>Tags</span>
               <a href="#">Software</a>
@@ -69,66 +70,14 @@ const BlogDeatil = () => {
               <a href="#"><i className="fab fa-pinterest-p" /></a>
               <a href="#"><i className="fab fa-instagram" /></a>
             </div>
-          </div> */}
+          </div>
           <div className="news-details__pagenation-box">
             <ul className="list-unstyled news-details__pagenation clearfix">
               <li>What is Holding Back the IT <br /> Solution Industry?</li>
               <li>What is Holding Back the IT <br /> Solution Industry?</li>
             </ul>
           </div>
-          <div className="comment-one">
-            <h3 className="comment-one__title">2 Comments</h3>
-            <div className="comment-one__single">
-              <div className="comment-one__image">
-                <img src="assets/images/blog/comment-1-1.png" alt />
-              </div>
-              <div className="comment-one__content">
-                <h3>Kevin Martin <span>3 September, 2021</span></h3>
-                <p>Lorem Ipsum is simply dummy text of the rinting and typesetting been the
-                  industry standard dummy text ever sincer condimentum purus. In non ex at
-                  ligula fringilla lobortis.</p>
-                <a href="#" className="thm-btn comment-one__btn">reply</a>
-              </div>
-            </div>
-            <div className="comment-one__single">
-              <div className="comment-one__image">
-                <img src="assets/images/blog/comment-1-2.png" alt />
-              </div>
-              <div className="comment-one__content">
-                <h3>Sarah Albert <span>3 September, 2021</span></h3>
-                <p>Lorem Ipsum is simply dummy text of the rinting and typesetting been the
-                  industry standard dummy text ever sincer condimentum purus. In non ex at
-                  ligula fringilla lobortis.</p>
-                <a href="#" className="thm-btn comment-one__btn">reply</a>
-              </div>
-            </div>
-          </div>
-          <div className="comment-form">
-            <h3 className="comment-form__title">Leave a Comment</h3>
-            <form action="assets/inc/sendemail.php" className="comment-one__form contact-form-validated" noValidate="novalidate">
-              <div className="row">
-                <div className="col-xl-6">
-                  <div className="comment-form__input-box">
-                    <input type="text" placeholder="Full Name" name="name" />
-                  </div>
-                </div>
-                <div className="col-xl-6">
-                  <div className="comment-form__input-box">
-                    <input type="email" placeholder="Email Address" name="email" />
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xl-12">
-                  <div className="comment-form__input-box">
-                    <textarea name="message" placeholder="Write Message" defaultValue={""} />
-                  </div>
-                  <button type="submit" className="thm-btn comment-form__btn">submit
-                    comment</button>
-                </div>
-              </div>
-            </form>
-          </div>
+        
         </div>
       </div>
       <div className="col-xl-4 col-lg-5">
@@ -208,6 +157,7 @@ const BlogDeatil = () => {
     </div>
   </div>
 </section>
+
 
   )
 }
