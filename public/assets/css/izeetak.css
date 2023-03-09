@@ -4011,7 +4011,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
     padding: 120px 0 120px;
     
     z-index: 1;
-    background-image: url(https://as1.ftcdn.net/v2/jpg/05/05/85/36/1000_F_505853676_mUPz0iE6f8r8Jn9W48HQelVknVu5Z8Bc.jpg);
+    background-image: url("/assets/images/resources/core value.jpg");
   background-repeat: no-repeat;
   background-size: cover ;
   background-attachment: fixed;
@@ -4058,7 +4058,8 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 .help__box-one-content {
     position: relative;
     display: block;
-    background-color: var(--thm-primary);
+    background: rgb(24,143,244);
+background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%, rgba(18,47,117,1) 100%);
     padding: 83px 60px 52px;
     border-top-left-radius: 8px;
     z-index: 1;

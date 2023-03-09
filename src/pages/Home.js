@@ -14,6 +14,7 @@ import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import AboutSlider from "../components/about/AboutSlider";
 import CustomService from "../components/home/CustomService";
+import BannerVideo from "../components/home/BannerVideo";
 
 const Home = () => {
   return (
@@ -29,7 +30,8 @@ const Home = () => {
       </Helmet>
     
       <div className="page-wrapper">
-        <Slider />
+        {/* <Slider /> */}
+        <BannerVideo />
         <PartnerSlider />
         <FeatureOne />
         <AboutOne />
