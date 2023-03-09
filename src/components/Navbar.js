@@ -57,7 +57,7 @@ const Menu = () => {
         </div>
       </div>
     </div>
-    <Navbar  className="main-menu clearfix">
+    <Navbar  sticky="top"  className="main-menu clearfix">
       <div className="main-menu-wrapper clearfix">
         <div className="main-menu-wrapper-inner clearfix">
           <div className="main-menu-wrapper__left clearfix">

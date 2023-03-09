@@ -34,7 +34,7 @@ const Home = () => {
         <ServiceOne />
         <DiscoverMore />
         {/* <ProjectsSlider/> */}
-        <ImproveSection />
+        {/* <ImproveSection /> */}
         <CoreValue />
         <Testimonial />
         <BlogHome />

@@ -1,4 +1,6 @@
 import React,{useEffect} from "react";
+import { Link } from "react-router-dom";
+import MissionVisionSlider from "../MissionAndVision";
 
 const AboutOne = () => {
 
@@ -33,12 +35,12 @@ const AboutOne = () => {
             <div className="col-xl-6">
               <div className="about-one__right">
                 <div className="section-title text-left">
-                  <span className="section-title__tagline">
+                  {/* <span className="section-title__tagline">
                     Get to Know About us
-                  </span>
-                  <h2 className="section-title__title">
+                  </span> */}
+                  <h4 className="section-title__title">
                    About Us
-                  </h2>
+                  </h4>
                 </div>
                 <p className="about-one__text py-3">
                   Way WeDesign is a leading IT/ITES provider in cochin with 5 +
@@ -51,17 +53,13 @@ const AboutOne = () => {
                   state-of-the-art facilities and technologies to be at the
                   cutting edge of the industry. We understand the importance of
                   developing strong relationships and ensuring customer
-                  satisfaction. Our approach combines agility, innovation,
-                  technology, and relationships, which has led to our
-                  exponential growth in demand for our services across various
-                  verticals including Enterprise Mobility, Web Technologies,
-                  Internet Marketing, Business Services, Consultancy Services,
-                  Cloud Services, Hosting Services and Application Development.
-                  We are committed to providing the highest level of service and
-                  support to our clients, and we will work closely with you to
-                  understand your unique needs and goals to deliver the best
-                  possible solutions
+                  satisfaction. 
                 </p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <MissionVisionSlider/>
+                <br/>
                 {/* <div className="about-one__points-box">
                   <ul className="about-one__points list-unstyled">
                     <li>
@@ -103,9 +101,9 @@ const AboutOne = () => {
                     </p>
                   </div>
                 </div> */}
-                <a href="about.html" className="about-one__btn thm-btn">
+                <Link to="/about" className="about-one__btn thm-btn">
                   Discover More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

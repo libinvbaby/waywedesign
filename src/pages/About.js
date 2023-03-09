@@ -5,6 +5,8 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import Testimonial from "./../components/home/Testimonial";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
+import Newservice from "../components/Newservice";
+import MissionVisionSlider from "../components/MissionAndVision";
 
 const About = () => {
   return (
@@ -25,6 +27,8 @@ const About = () => {
       <KnowAbout />
       <AboutSlider />
       <Testimonial />
+      <MissionVisionSlider/> 
+      {/* <Newservice/> */}
     </motion.div>
   );
 };
