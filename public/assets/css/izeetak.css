@@ -215,7 +215,7 @@ canvas {
     margin-right: 10px;
 }
 
-.section-title__title {
+.section-title__title, .section-title__title_counter {
     margin: 0;
     font-weight: 800;
     color: var(--thm-black);
@@ -6820,4 +6820,8 @@ li::marker{
         padding-left: 20px;
       }
       
-      
+      @media only screen and(max-width:768px){
+        .section-title__title_counter{
+            font-size:50px!important;
+        }
+      }
