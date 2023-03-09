@@ -1748,13 +1748,12 @@ canvas {
 /*--------------------------------------------------------------
 # Brand One
 --------------------------------------------------------------*/
-.brand-one {
+.brand-one { 
     position: relative;
     display: block;
-    background-color: #188ff4 ;
-    padding: 99px 0 208px;
+    background-color: #188ff4;
+    padding: 69px 0 153px;
 }
-
 .brand-one .swiper-container {
     padding: 0 10px;
 }

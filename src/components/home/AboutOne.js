@@ -42,6 +42,7 @@ const AboutOne = () => {
                    About Us
                   </h4>
                 </div>
+                
                 <p className="about-one__text py-3">
                   Way WeDesign is a leading IT/ITES provider in cochin with 5 +
                   years of proven track record in serving customers worldwide
