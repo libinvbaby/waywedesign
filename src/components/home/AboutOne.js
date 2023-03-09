@@ -103,7 +103,7 @@ const AboutOne = () => {
                   </div>
                 </div> */}
                 <Link to="/about" className="about-one__btn thm-btn">
-                  Discover More
+                  Read More
                 </Link>
               </div>
             </div>
