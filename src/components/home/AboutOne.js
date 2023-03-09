@@ -19,16 +19,11 @@ const AboutOne = () => {
                 <div className="about-one__img-box">
                   <div className="about-one__img">
                     <img
-                      src="assets/images/resources/about-one-img-1.jpg"
+                      src="assets/images/resources/about-two-img-1.jpg"
                       alt
                     />
                   </div>
-                  <div className="about-one__small-img">
-                    <img 
-                      src="assets/images/resources/about-new.png"
-                      alt
-                    />
-                  </div>
+                  
                 </div>
               </div>
             </div>

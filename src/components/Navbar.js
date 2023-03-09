@@ -92,31 +92,31 @@ const Menu = () => {
                   <Link to="/software-development-platform">Software & Platform Developments </Link>
                   <ul>
                   <li>
-                    <Link to='/dashboard-reporting'>Dashboard Reporting</Link>
+                    <Link to='/software-development-platform/dashboard-reporting'>Dashboard Reporting</Link>
                     </li>
                   <li>
-                    <Link to='/mobile-app-development'>Mobile App Development</Link>
+                    <Link to='/software-development-platform/mobile-app-development'>Mobile App Development</Link>
                     </li>
                   <li>
-                    <Link to='/pen-testing'>Pen Testing</Link>
+                    <Link to='/software-development-platform/pen-testing'>Pen Testing</Link>
                     </li>
                   <li>
-                    <Link to='/web-development'>Web Development</Link>
+                    <Link to='/software-development-platform/web-development'>Web Development</Link>
                     </li>
                   <li>
-                    <Link to='/iot-development'>IOT Development</Link>
+                    <Link to='/software-development-platform/iot-development'>IOT Development</Link>
                     </li>
                   <li>
-                    <Link to='/media'>Media</Link>
+                    <Link to='/software-development-platform/media'>Media</Link>
                     </li>
                   <li>
-                    <Link to='/retail-and-ecommerce'>Retail And Ecommerce</Link>
+                    <Link to='/software-development-platform/retail-and-ecommerce'>Retail And Ecommerce</Link>
                     </li>
                   <li>
-                    <Link to='/assessement-platforms'>Assessment Platforms</Link>
+                    <Link to='/software-development-platform/assessement-platforms'>Assessment Platforms</Link>
                     </li>
                     <li>
-                      <Link to="/payroll-management-softwares">Payroll Management Softwares</Link>
+                      <Link to="/software-development-platform/payroll-management-softwares">Payroll Management Softwares</Link>
                     </li>
                   </ul>
                   
@@ -127,17 +127,17 @@ const Menu = () => {
                       <Link to="/digital-marketing">Digital Marketing</Link>
                         <ul>
                           <li>
-                            <Link to="/search-engine-optimization">Search Engine Optimization (SEO)</Link>
+                            <Link to="/digital-marketing/search-engine-optimization">Search Engine Optimization (SEO)</Link>
                           </li>
                           <li>
-                            <Link to="/social-media-marketing">Social Media Marketing(SMM)</Link>
+                            <Link to="/digital-marketing/social-media-marketing">Social Media Marketing(SMM)</Link>
                           </li>
                           <li>
-                            <Link to="/google-ads">Google Ads</Link>
+                            <Link to="/digital-marketing/google-ads">Google Ads</Link>
                           </li>
                           
                           <li>
-                            <Link to="/graphic-designing">Graphic Designing</Link>
+                            <Link to="/digital-marketing/graphic-designing">Graphic Designing</Link>
                           </li>
                         </ul>
                      

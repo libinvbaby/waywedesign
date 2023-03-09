@@ -29,7 +29,7 @@ const DashboardReporting = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/dashboard-reporting.jpg"
+                    src="/assets/images/resources/dashboard-reporting.jpg"
                     alt="digital-marketing"
                   />
                 </div>

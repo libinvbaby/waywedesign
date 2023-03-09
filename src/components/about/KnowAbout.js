@@ -26,28 +26,7 @@ We are committed to providing the highest level of service and support to our cl
 </p>
           {/* <p className="about-two__text-2">IZEETAK is the Largest Global IT Solution &amp; Services Business */}
             {/* in the World.</p> */}
-          <div className="about-two__progress-wrap">
-            <div className="about-two__progress">
-              <div className="about-two__progress-box">
-                <div className="circle-progress" data-options="{ &quot;value&quot;: 0.9,&quot;thickness&quot;: 3,&quot;emptyFill&quot;: &quot;#eef3f7&quot;,&quot;lineCap&quot;: &quot;square&quot;, &quot;size&quot;: 138, &quot;fill&quot;: { &quot;color&quot;: &quot;#42d9be&quot; } }">
-                </div>{/* /.circle-progress */}
-                <span>90%</span>
-              </div>
-              <div className="about-two__progress-content">
-                <h3>Successful Projects</h3>
-              </div>
-            </div>
-            <div className="about-two__progress">
-              <div className="about-two__progress-box">
-                <div className="circle-progress" data-options="{ &quot;value&quot;: 0.5,&quot;thickness&quot;: 3,&quot;emptyFill&quot;: &quot;#eef3f7&quot;,&quot;lineCap&quot;: &quot;square&quot;, &quot;size&quot;: 138, &quot;fill&quot;: { &quot;color&quot;: &quot;#42d9be&quot; } }">
-                </div>{/* /.circle-progress */}
-                <span>50%</span>
-              </div>{/* /.about-five__progress-box */}
-              <div className="about-two__progress-content">
-                <h3>Problem Solved</h3>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>

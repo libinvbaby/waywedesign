@@ -61,7 +61,7 @@ const GoogleAds = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/google-ads.jpg"
+                    src="/assets/images/resources/google-ads.jpg"
                     alt="GOOGLE ADS/PPC"
                   />
                 </div>

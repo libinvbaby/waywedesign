@@ -10,6 +10,7 @@ const PartnerSlider = () => {
       <section className="brand-one">
         <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
           <div className="container">
+            
             <div className="row">
               <div className="col-md-3 text-center ">
                 <div className="counter-wrapper">

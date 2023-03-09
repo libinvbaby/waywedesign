@@ -28,7 +28,7 @@ const Media = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/media.jpg"
+                    src="/assets/images/resources/media.jpg"
                     alt="digital-marketing"
                   />
                 </div>

@@ -52,7 +52,7 @@ const DigitalMarketing = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/digital-marketing-page-banner.jpg"
+                    src="/assets/images/resources/digital-marketing-page-banner.jpg"
                     alt="digital-marketing"
                   />
                 </div>

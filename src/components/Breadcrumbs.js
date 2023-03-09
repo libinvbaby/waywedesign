@@ -5,7 +5,7 @@ const Breadcrumbs = (props) => {
     <div>
         {/*Page Header Start*/}
 <section className="page-header">
-  <div className="page-header-bg" style={{backgroundImage: 'url(assets/images/backgrounds/page-header-bg.jpg)'}}>
+  <div className="page-header-bg" style={{backgroundImage: 'url(/assets/images/backgrounds/page-header-bg.jpg)'}}>
   </div>
   <div className="page-header-bg-overly" />
   <div data-aos="slide-left" className="page-header-shape wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms" />

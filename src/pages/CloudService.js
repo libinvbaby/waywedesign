@@ -61,7 +61,7 @@ const CloudService = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/cloud.jpg"
+                    src="/assets/images/resources/cloud.jpg"
                     alt="digital-marketing"
                   />
                 </div>

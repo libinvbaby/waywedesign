@@ -26,7 +26,7 @@ const WebDevelopment = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/web-development-page-banner.jpg"
+                    src="/assets/images/resources/web-development-page-banner.jpg"
                     alt="digital-marketing"
                   />
                 </div>

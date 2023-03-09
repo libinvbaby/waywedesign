@@ -56,7 +56,7 @@ const Hrm = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/hrm-service.jpg"
+                    src="/assets/images/resources/hrm-service.jpg"
                     alt="digital-marketing"
                   />
                 </div>

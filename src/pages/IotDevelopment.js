@@ -64,7 +64,7 @@ const IotDevelopment = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/IotDevelopment.jpg"
+                    src="/assets/images/resources/IotDevelopment.jpg"
                     alt="digital-marketing"
                   />
                 </div>

@@ -30,7 +30,7 @@ const RetailAndEcommerce = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/retail-and-ecommerce.jpg"
+                    src="/assets/images/resources/retail-and-ecommerce.jpg"
                     alt="RETAIL AND ECOMMERCE"
                   />
                 </div>
@@ -55,7 +55,7 @@ const RetailAndEcommerce = () => {
                   </p>
                   <img
                     class="text-center"
-                    src="assets/images/resources/retail-and-ecommerce-two.png"
+                    src="/assets/images/resources/retail-and-ecommerce-two.png"
                     alt="RETAIL AND ECOMMERCE  OFFERING"
                   />
                 </div>

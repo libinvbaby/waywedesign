@@ -31,7 +31,7 @@ const PayrollManagementSoftwares = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/payroll-management.jpg"
+                    src="/assets/images/resources/payroll-management.jpg"
                     alt="digital-marketing"
                   />
                 </div>

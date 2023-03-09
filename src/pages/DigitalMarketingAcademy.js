@@ -76,7 +76,7 @@ const digitalMarketingAcademy = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/digital-marketing-academy.jpg"
+                    src="/assets/images/resources/digital-marketing-academy.jpg"
                     alt="digital-marketing-academy"
                   />
                 </div>

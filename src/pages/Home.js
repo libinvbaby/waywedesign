@@ -12,6 +12,8 @@ import BlogHome from "./../components/home/BlogHome";
 import HomeCta from "./../components/home/HomeCta";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
+import AboutSlider from "../components/about/AboutSlider";
+import CustomService from "../components/home/CustomService";
 
 const Home = () => {
   return (
@@ -31,7 +33,8 @@ const Home = () => {
         <PartnerSlider />
         <FeatureOne />
         <AboutOne />
-        <ServiceOne />
+        {/* <ServiceOne /> */}
+        <CustomService/>
         <DiscoverMore />
         {/* <ProjectsSlider/> */}
         {/* <ImproveSection /> */}
@@ -39,6 +42,7 @@ const Home = () => {
         <Testimonial />
         <BlogHome />
         <HomeCta />
+        <AboutSlider/>
       </div>
     </motion.div>
   );

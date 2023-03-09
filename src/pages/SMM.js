@@ -63,7 +63,7 @@ const SMM = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/smm-banner.jpg"
+                    src="/assets/images/resources/smm-banner.jpg"
                     alt="SOCIAL MEDIA MARKETING"
                   />
                 </div>

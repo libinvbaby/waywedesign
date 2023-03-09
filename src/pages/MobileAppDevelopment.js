@@ -30,7 +30,7 @@ const MobileAppDevelopment = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/mobile-app-development.jpg"
+                    src="/assets/images/resources/mobile-app-development.jpg"
                     alt="digital-marketing"
                   />
                 </div>

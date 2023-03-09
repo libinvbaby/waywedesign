@@ -31,7 +31,7 @@ const AssessementPlatforms = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/assesment-platform-banner.jpg"
+                    src="/assets/images/resources/assesment-platform-banner.jpg"
                     alt="RETAIL AND ECOMMERCE"
                   />
                 </div>
@@ -64,7 +64,7 @@ const AssessementPlatforms = () => {
                   </p>
                   <img
                     class="text-center"
-                    src="assets/images/resources/assesment-platform.png"
+                    src="/assets/images/resources/assesment-platform.png"
                     alt="assesment-platform includes"
                   />
                   <p className="service-details__text ">

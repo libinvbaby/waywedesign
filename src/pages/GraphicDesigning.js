@@ -53,7 +53,7 @@ const GraphicDesigning = () => {
               <div className="service-details__right">
                 <div className="service-details__img">
                   <img
-                    src="assets/images/resources/graphic-design-banner.jpg"
+                    src="/assets/images/resources/graphic-design-banner.jpg"
                     alt="digital-marketing"
                   />
                 </div>
