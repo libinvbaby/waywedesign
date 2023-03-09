@@ -6814,7 +6814,7 @@ li::marker{
       }
       
       
-      .services-one__single .service-custom-icon:hover{
+      .services-one__single:hover .service-custom-icon{
         transform: scale(1.1);
       }
       
