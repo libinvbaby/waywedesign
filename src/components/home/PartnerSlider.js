@@ -12,7 +12,7 @@ const PartnerSlider = () => {
           <div className="container">
             
             <div className="row">
-              <div className="col-md-3 text-center ">
+              <div className="col-md-3 col-6 text-center ">
                 <div className="counter-wrapper">
                   <h1 class=" section-title__title text-white">
                     {counterOn && <CountUp start={0} end={100} duration={2} delay={0}/>}
@@ -21,7 +21,7 @@ const PartnerSlider = () => {
                   <h4 class="text-white">Projects</h4>
                 </div>
               </div>
-              <div className="col-md-3 text-center counter-col">
+              <div className="col-md-3 col-6 text-center counter-col">
                 <div className="counter-wrapper">
                   <h1 class=" section-title__title text-white">
                     {counterOn && <CountUp start={0} end={10} duration={2} delay={0}/>}
@@ -30,7 +30,7 @@ const PartnerSlider = () => {
                   <h4 class="text-white">Countries</h4>
                 </div>
               </div>
-              <div className="col-md-3 text-center counter-col">
+              <div className="col-md-3 col-6 text-center counter-col">
                 <div className="counter-wrapper">
                   <h1 class=" section-title__title text-white">
                     {counterOn && <CountUp start={0} end={10} duration={2} delay={0}/>}
@@ -39,7 +39,7 @@ const PartnerSlider = () => {
                   <h4 class="text-white">Services</h4>
                 </div>
               </div>
-              <div className="col-md-3 text-center counter-col">
+              <div className="col-md-3 col-6 text-center counter-col">
                 <div className="counter-wrapper">
                   <h1 class=" section-title__title text-white">
                     {counterOn && <CountUp start={0} end={100} duration={2} delay={0}/>}
