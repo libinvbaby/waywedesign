@@ -50,7 +50,7 @@ const Slider = () => {
               className="image-layer"
               style={{
                 backgroundImage:
-                  "url(assets/images/banner/banner-one.jpg)",
+                  "url(assets/images/banner/banner-one.gif)",
               }}
             ></div>
             <div className="image-layer-overlay" />
@@ -82,7 +82,7 @@ const Slider = () => {
               className="image-layer"
               style={{
                 backgroundImage:
-                  "url(assets/images/banner/banner-two.jpg)",
+                  "url(assets/images/banner/banner-two.gif)",
               }}
             ></div>
             <div className="image-layer-overlay" />
@@ -113,7 +113,7 @@ const Slider = () => {
               className="image-layer"
               style={{
                 backgroundImage:
-                  "url(assets/images/banner/banner-three.jpg)",
+                  "url(assets/images/banner/banner-three.gif)",
               }}
             ></div>
             <div className="image-layer-overlay" />
