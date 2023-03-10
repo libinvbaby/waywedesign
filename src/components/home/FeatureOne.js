@@ -48,8 +48,7 @@ const FeatureOne = () => {
                       <span className="icon-webpage" />
                     </div>
                     <div className="feature-one__text">
-                      <h3>Graphical Dynamite
-</h3>
+                      <h3>HRM</h3>
                       <p>Lorem ipsum is simply of free text dolor.</p>
                     </div>
                   </div>
