@@ -2294,6 +2294,7 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 # Share The Joy
 --------------------------------------------------------------*/
 .share-the-joy {
+    
     position: relative;
     display: block;
     margin-top: -120px;
@@ -2307,9 +2308,10 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
     max-width: 1594px;
     width: 100%;
     margin: 0 auto;
-    background-color: var(--thm-primary);
+    background-image: url(../images/resources/end-to-end-services-new.jpg);
+    background-size: cover;
     border-radius: var(--thm-bdr-radius);
-    padding: 105px 0 120px;
+    padding: 20px 0 20px;
     z-index: 1;
 }
 

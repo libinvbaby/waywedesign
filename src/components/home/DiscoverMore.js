@@ -1,5 +1,6 @@
 import React from 'react'
-import Odometer from 'react-odometerjs';
+import CountUp from 'react-countup'
+import { Link } from 'react-router-dom';
 
 
 const DiscoverMore = () => {
@@ -8,13 +9,7 @@ const DiscoverMore = () => {
         {/*Share The Joy Start*/}
         <section className="share-the-joy">
           <div className="share-the-joy__inner">
-            <div
-              className="share-the-joy-map"
-              style={{
-                backgroundImage:
-                  "url(assets/images/shapes/share-the-joy-map.png)",
-              }}
-            />
+           
             <div className="container">
               <div className="row">
                 <div className="col-xl-7">
@@ -23,9 +18,9 @@ const DiscoverMore = () => {
                      We are providing an end-to-end services to help you find Online
 
                     </h2>
-                    <a href="#" className="share-the-joy__btn thm-btn">
-                      Discover More
-                    </a>
+                    <Link to="contact" className="share-the-joy__btn thm-btn">
+                      Contact Us
+                    </Link>
                     <div className="share-the-joy__shape-1">
                       <img
                         src="assets/images/shapes/share-the-joy-shape-1.png"
@@ -41,13 +36,13 @@ const DiscoverMore = () => {
                         className="share-the-joy__img wow fadeInRight"
                         data-wow-duration="1500ms"
                       >
-                        <img
+                        {/* <img
                           src="assets/images/resources/share-the-joy-img-1.png"
                           alt
                           className="float-bob-2"
-                        />
+                        /> */}
                       </div>
-                      <div
+                      {/* <div
                         className="share-the-joy__trusted wow fadeIn"
                         data-wow-duration="1500ms"
                       >
@@ -55,10 +50,10 @@ const DiscoverMore = () => {
                         <div className="share-the-joy__trusted__content">
                           <p>Trusted by</p>
                           
-                          <Odometer className="odometer" value={100} format="(.ddd),dd"/>
+                          <CountUp start={0} end={100} duration={2} delay={0}/>
                           
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

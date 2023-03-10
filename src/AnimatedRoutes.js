@@ -51,7 +51,7 @@ const AnimatedRoutes = () => {
     <Route path='/software-development-platform/iot-development' element={<IotDevelopment/>}/>
     <Route path='/software-development-platform/media' element={<Media/>}/>
     <Route path='/software-development-platform/retail-and-ecommerce' element={<RetailAndEcommerce/>}/>
-    <Route path='/software-development-platform/assessement-platforms' element={<AssessementPlatforms/>}/>
+    <Route path='/software-development-platform/assessment-platforms' element={<AssessementPlatforms/>}/>
     <Route path='/software-development-platform/payroll-management-softwares' element={<PayrollManagementSoftwares/>}/>
     <Route path="/careers" element={<Careers/>} />
     <Route path="/blog" element={<Blog/>} />
