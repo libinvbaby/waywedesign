@@ -6,7 +6,8 @@ const AboutSlider = () => {
   return (
     <div>
         <section className="brand-two">
-  <div className="container">
+  <div className="container py-4">
+  <h2 className="section-title__title text-center pb-2">Our Clients</h2>
     <div className="brand-two__inner">
       <Swiper className="thm-swiper__slider swiper-container"
       autoplay={{

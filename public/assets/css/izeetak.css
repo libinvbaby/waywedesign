@@ -1387,7 +1387,7 @@ canvas {
 
 .main-slider .swiper-slide {
     position: relative;
-    background-color: #000000d0;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .main-slider .image-layer {
@@ -2753,7 +2753,11 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
 .improve-one__right .section-title {
     margin-bottom: 41px;
 }
-
+.section-title__title_tools{
+    font-size: 32px;
+    padding:10px 0px;
+    font-weight: bold;
+}
 .improve-one__right .section-title__tagline {
     color: #ada8ba;
 }

@@ -15,6 +15,7 @@ import { motion } from "framer-motion";
 import AboutSlider from "../components/about/AboutSlider";
 import CustomService from "../components/home/CustomService";
 import BannerVideo from "../components/home/BannerVideo";
+import ToolsUsed from "../components/home/ToolsUsed";
 
 const Home = () => {
   return (
@@ -38,13 +39,14 @@ const Home = () => {
         {/* <ServiceOne /> */}
         <CustomService/>
         <DiscoverMore />
+        <AboutSlider/>
         {/* <ProjectsSlider/> */}
         {/* <ImproveSection /> */}
         <CoreValue />
         <Testimonial />
         <BlogHome />
         <HomeCta />
-        <AboutSlider/>
+        <ToolsUsed/>
       </div>
     </motion.div>
   );
