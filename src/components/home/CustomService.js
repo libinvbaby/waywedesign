@@ -8,10 +8,10 @@ const CustomService = () => {
     <section className="services-one">
      <div className="container">
        <div className="section-title text-center">
-         <span className="section-title__tagline">
-           Wide Range of Services
-         </span>
-         <h2 className="section-title__title">What We’re Offering</h2>
+         {/* <span className="section-title__tagline">
+          
+         </span> */}
+         <h2 className="section-title__title"> Wide Range of Services</h2>
        </div>
        <div className="row">
          <div  data-aos="fade-up-right"
