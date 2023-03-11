@@ -16,6 +16,7 @@ import AboutSlider from "../components/about/AboutSlider";
 import CustomService from "../components/home/CustomService";
 import BannerVideo from "../components/home/BannerVideo";
 import ToolsUsed from "../components/home/ToolsUsed";
+import GlobalPresence from './../components/home/GlobalPresence';
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
         <BlogHome />
         <HomeCta />
         <ToolsUsed/>
+        {/* <GlobalPresence/> */}
       </div>
     </motion.div>
   );

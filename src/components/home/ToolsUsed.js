@@ -72,72 +72,46 @@ const ToolsUsed = () => {
 }}'>
     <div className="swiper-wrapper">
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-1.avif" alt />
+        <img src="assets/images/techno/angular.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-2.avif" alt />
+        <img style={{width:"150px"}} src="assets/images/techno/aws.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-3.avif" alt />
+        <img src="assets/images/techno/azure.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-4.avif" alt />
+        <img src="assets/images/techno/css.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-5.avif" alt />
+        <img src="assets/images/techno/goole-cloud.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-6.avif" alt />
+        <img src="assets/images/techno/html-5.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-7.avif" alt />
+        <img src="assets/images/techno/java.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-8.avif" alt />
+        <img src="assets/images/techno/js.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
-        <img src="assets/images/techno/Website-9.avif" alt />
+        <img src="assets/images/techno/php.png" alt />
       </SwiperSlide>{/* /.swiper-slide */}
       <SwiperSlide className="swiper-slide">
        
-        <img src="assets/images/techno/Website-10.avif" alt />
+        <img src="assets/images/techno/python.png" alt />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="assets/images/techno/mobile-1.avif" alt="" />
+        <img src="assets/images/techno/react.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-2.avif" alt />
+              <img src="assets/images/techno/sql.png" alt />
             </SwiperSlide>{/* /.swiper-slide */}
         <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-3.avif" alt />
+              <img src="assets/images/techno/wordpress.png" alt />
             </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-4.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-5.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-6.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-7.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-8.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/mobile-9.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/Cloud-1.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/Cloud-3.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
-        <SwiperSlide className="swiper-slide">
-              <img src="assets/images/techno/Cloud-3.avif" alt />
-            </SwiperSlide>{/* /.swiper-slide */}
+        
     </div>
   </Swiper>
 </div>

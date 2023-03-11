@@ -4405,6 +4405,7 @@ background: linear-gradient(38deg, rgba(24,143,244,1) 0%, rgba(12,93,160,1) 48%,
     -webkit-transition: 500ms;
     transition: 500ms;
     opacity: 1;
+    width:80px;
     max-width: 100%;
 }
 
@@ -6882,4 +6883,16 @@ li::marker{
         .section-title__title_counter{
             font-size:50px!important;
         }
+      }
+
+      .world-map {
+        width: 80%;
+        text-align:center;
+        height: auto;
+        border: 1px solid black;
+      }
+      svg circle {
+        fill: red;
+        stroke: black;
+        stroke-width: 1px;
       }
