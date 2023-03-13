@@ -9,7 +9,7 @@ const BlogDeatil = () => {
   useEffect(()=>{
     const fetchPost = async()  =>{
       const {post} = await request(
-        "https://api-ap-south-1.hygraph.com/v2/clex48z1v04h801t8hg1t8wcx/master",
+        "https://api-ap-south-1.hygraph.com/v2/clf3we3t74e4r01ugdh21hjyi/master",
           `{
             post(where:{slug: "${slug}"}){
               createdAt
