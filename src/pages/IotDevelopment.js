@@ -51,7 +51,7 @@ const IotDevelopment = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>IOT Development - WayWeDesign</title>
+        <title>IOT Development - Way WeDesign</title>
         <meta name="description" content="IOT Development" />
       </Helmet>
       

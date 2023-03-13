@@ -47,7 +47,7 @@ const GoogleAds = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Google Ads - Waywedesign</title>
+        <title>Google Ads - Way WeDesign</title>
         <meta name="description" content="Google Ads" />
       </Helmet>
  

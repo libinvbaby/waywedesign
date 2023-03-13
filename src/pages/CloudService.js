@@ -47,7 +47,7 @@ const CloudService = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Cloud Service - Waywedesign</title>
+        <title>Cloud Service - Way WeDesign</title>
         <meta name="description" content="Cloud Service" />
       </Helmet>
     

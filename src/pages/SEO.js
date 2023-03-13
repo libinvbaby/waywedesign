@@ -46,7 +46,7 @@ const SEO = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>SEO - WayWeDesign</title>
+        <title>SEO - Way WeDesign</title>
         <meta name="description" content="search engine optimization" />
       </Helmet>
       

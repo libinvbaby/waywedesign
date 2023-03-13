@@ -14,7 +14,7 @@ const Contact = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Contact Us - Waywedesign</title>
+        <title>Contact Us - Way WeDesign</title>
         <meta name="description" content="Contact Us" />
       </Helmet>
       

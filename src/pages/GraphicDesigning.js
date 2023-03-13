@@ -40,7 +40,7 @@ const GraphicDesigning = () => {
     exit={{ opacity:0, x: 100}}
     transition={{ duration: 1 }}>
       <Helmet>
-        <title>Graphic Designing - Waywedesign</title>
+        <title>Graphic Designing - Way WeDesign</title>
         <meta name="description" content="Graphic designing" />
       </Helmet>
       

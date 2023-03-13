@@ -47,7 +47,7 @@ const SMM = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>SMM - Waywedesign</title>
+        <title>SMM - Way WeDesign</title>
         <meta name="description" content="social media marketing" />
       </Helmet>
       

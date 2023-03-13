@@ -12,7 +12,7 @@ const Service = () => {
     transition={{ duration: 1 }}>
        <Helmet>
               
-              <title>Services -  Waywedesign</title>
+              <title>Services -  Way WeDesign</title>
               <meta name="description" content="Service" />
 </Helmet>
         <BlogHome/>

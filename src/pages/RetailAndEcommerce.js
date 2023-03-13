@@ -13,7 +13,7 @@ const RetailAndEcommerce = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Retail And Ecommerce - WayWeDesign</title>
+        <title>Retail And Ecommerce - Way WeDesign</title>
         <meta name="description" content="Retail and Ecommerce" />
       </Helmet>
       

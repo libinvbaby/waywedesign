@@ -42,7 +42,7 @@ const Hrm = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>HRM - Waywedesign</title>
+        <title>HRM - Way WeDesign</title>
         <meta name="description" content="HRM" />
       </Helmet>
  

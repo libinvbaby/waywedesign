@@ -25,7 +25,7 @@ const Blog = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Blog - Waywedesign</title>
+        <title>Blog - Way WeDesign</title>
         <meta name="description" content="Blog" />
       </Helmet>
  

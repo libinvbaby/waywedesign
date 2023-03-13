@@ -14,7 +14,7 @@ const Media = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Media - WayWeDesign</title>
+        <title>Media - Way WeDesign</title>
         <meta name="description" content="Media" />
       </Helmet>
       

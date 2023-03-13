@@ -59,7 +59,7 @@ const digitalMarketingAcademy = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Digital Marketing Academy - Waywedesign</title>
+        <title>Digital Marketing Academy - Way WeDesign</title>
         <meta name="description" content="Digital Marketing Academy" />
       </Helmet>
      

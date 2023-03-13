@@ -69,7 +69,7 @@ const SoftwareDevelopmentPlatform = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Software Development Platform - WayWeDesign</title>
+        <title>Software Development Platform - Way WeDesign</title>
         <meta name="description" content="software development platform" />
       </Helmet>
 

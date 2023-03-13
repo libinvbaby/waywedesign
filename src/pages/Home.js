@@ -24,7 +24,7 @@ const Home = () => {
       
     >
       <Helmet>
-        <title>WayWeDesign </title>
+        <title>Way WeDesign </title>
         <meta name="description" content="" />
       </Helmet>
     

@@ -14,7 +14,7 @@ const PayrollManagementSoftwares = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Payroll Management Software - Waywedesign</title>
+        <title>Payroll Management Software - Way WeDesign</title>
         <meta name="description" content="payroll Management Software" />
       </Helmet>
       

@@ -13,7 +13,7 @@ const Careers = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Careers - Waywedesign</title>
+        <title>Careers - Way WeDesign</title>
         <meta name="description" content="Careers" />
       </Helmet>
       <Breadcrumbs pageurl="careers" subtitle="CAREERS" />
