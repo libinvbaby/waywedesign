@@ -60,7 +60,9 @@ const Menu = () => {
               <div className="main-menu-wrapper__left clearfix">
                 <div className="main-menu-wrapper__logo">
                   <Navbar.Brand>
+                    <Link to="/">
                     <img width="170px" src="assets/images/logo-wwd.png" alt />
+</Link>
                   </Navbar.Brand>
                 </div>
                 <Navbar.Collapse id="basic-navbar-nav">

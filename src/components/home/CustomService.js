@@ -5,7 +5,7 @@ const CustomService = () => {
   return (
     <div>
     {/*Services One Start*/}
-    <section className="services-one">
+    <section className="services-one" >
      <div className="container">
        <div className="section-title text-center">
          {/* <span className="section-title__tagline">

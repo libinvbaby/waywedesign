@@ -26,8 +26,11 @@ export default function MobileMenu() {
     <MDBNavbar className="MDBNavbar" expand="lg" light bgColor="light">
       <MDBContainer>
         <MDBNavbarBrand href="#">
+          <Link class="/">
+          <img width="150px" src="assets/images/logo-wwd.png" alt />
+          </Link>
         
-            <img width="150px" src="assets/images/logo-wwd.png" alt />
+           
           
         </MDBNavbarBrand>
 

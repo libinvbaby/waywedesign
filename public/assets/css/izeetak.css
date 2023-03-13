@@ -2086,6 +2086,9 @@ background: linear-gradient(17deg, rgba(24,143,244,1) 0%, rgba(12,76,144,1) 48%,
     position: relative;
     display: block;
     background-color: #eef3f7;
+    background-image: url(../images/backgrounds/service-background.png);
+    background-size: cover;
+    background-position: center;
     padding: 120px 0 210px;
 }
 

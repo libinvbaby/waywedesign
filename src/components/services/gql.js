@@ -4,6 +4,7 @@ export const postsQuery =()=>{
     const query =gql`
       query postsQuery() {
     posts {
+        
       createdAt
       datePublished
       coverPhoto {
