@@ -13,7 +13,7 @@ const WebDevelopment = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Web Development - Waywedesign</title>
+        <title>Web Development - Way WeDesign</title>
         <meta name="description" content="Web Development" />
       </Helmet>
      

@@ -13,7 +13,7 @@ const DashboardReporting = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Dashboard Reporting - Waywedesign</title>
+        <title>Dashboard Reporting - Way WeDesign</title>
         <meta name="description" content="DashBoard Reporting" />
       </Helmet>
      

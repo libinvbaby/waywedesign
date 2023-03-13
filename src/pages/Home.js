@@ -29,8 +29,8 @@ const Home = () => {
       </Helmet>
     
       <div className="page-wrapper">
-        <Slider />
-        {/* <BannerVideo /> */}
+        {/* <Slider /> */}
+        <BannerVideo />
         <PartnerSlider />
         <FeatureOne />
         <AboutOne />

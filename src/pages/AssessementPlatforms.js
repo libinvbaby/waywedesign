@@ -14,7 +14,7 @@ const AssessementPlatforms = () => {
       transition={{ duration: 1 }}
     >
       <Helmet>
-        <title>Assessement Platforms - Waywedesign</title>
+        <title>Assessement Platforms - Way WeDesign</title>
         <meta name="description" content="Assessment Platform" />
       </Helmet>
       

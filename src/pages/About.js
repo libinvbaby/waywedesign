@@ -18,7 +18,7 @@ const About = () => {
     
     >
       <Helmet>
-        <title>About Us - Waywedesign</title>
+        <title>About Us - Way WeDesign</title>
         <meta name="description" content="About us" />
       </Helmet>
      
