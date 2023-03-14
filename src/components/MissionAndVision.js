@@ -13,7 +13,7 @@ const MissionVisionSlider = () => {
   };
 
   return (
-    <div className="container ">
+    <div className="container owl-container">
       {/* <div className="slider-nav">
         <button onClick={() => handleNavClick(0)}>Mission</button>
         <button onClick={() => handleNavClick(1)}>Vision</button>
@@ -41,6 +41,12 @@ const MissionVisionSlider = () => {
             To be leading Web Solutions Company in the IT industry, our goal is
             to continue to solidify our position in the market. We know that the
             success of our clients
+          </p>
+        </div>
+        <div className="item owl-carousel-item">
+          <h4>Core Values</h4>
+          <p>
+          Our core values of integrity, innovation, and customer focus are the foundation of our culture. They inspire us to strive for excellence and set us apart as a trusted leader in our industry
           </p>
         </div>
       </OwlCarousel>

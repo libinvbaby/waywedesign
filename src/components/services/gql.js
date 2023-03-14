@@ -1,32 +1,32 @@
 import { gql } from 'graphql-request';
 
-export const postsQuery =()=>{
-    const query =gql`
-      query postsQuery() {
-    posts {
-        
-      createdAt
-      datePublished
-      coverPhoto {
+export const postsQuery = () => {
+  const query = gql`
+    query {
+      posts(first: 200) {
+        createdAt
+        datePublished
+        coverPhoto {
+          id
+          url
+        }
         id
-        url
+        publishedAt
+        slug
+        title
+        author {
+          name
+        }
+        content {
+          html
+        }
+        smalldesc
       }
-      id
-      publishedAt
-      slug
-      title
-      author {
-        name
-      }
-      content {
-        html
-      }
-      smalldesc
     }
-  }
-`
-return query;
-}
+  `;
+  return query;
+};
+
  
 export const getAllPostQuery =()=>{
     const query = gql`
