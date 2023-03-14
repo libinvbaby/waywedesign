@@ -26,7 +26,7 @@ const BlogDeatil = () => {
                 name
               }
               content {
-                html
+                raw
               }
               smalldesc
             }
@@ -47,15 +47,16 @@ const BlogDeatil = () => {
           <div className="news-details__img">
             <img src={blog.coverPhoto.url} alt />
             <div className="news-details__date-box">
-              <p>{blog.publishedAt}</p>
+              <p>{blog.datePublished}</p>
             </div>
           </div>
           <div className="news-details__content">
             <ul className="list-unstyled news-details__meta">
-              <li><a href="news-details.html"><i className="far fa-user-circle" /> by admin</a></li>
+              <li><a href="news-details.html"><i className="far fa-user-circle" /> by {blog.author.name}</a></li>
             </ul>
             <h3 className="news-details__title" >{blog.title}</h3>
-            <p className="news-details__text-1"  />
+            {/* <p className="news-details__text-1"  >{blog.content.text}</p> */}
+            <RichText content={blog.content.raw.children}/>
           </div>
           <div className="news-details__bottom">
             <p className="news-details__tags">

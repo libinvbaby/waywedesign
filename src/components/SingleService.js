@@ -12,10 +12,10 @@ const SingleService = (props) => {
                 data-wow-delay="100ms"
               >
                 {/*Services One Single*/}
-                <di style={{height:"500px"}} className="services-one__single">
-                  <div className="services-one__icon">
+                <di style={{height:"350px"}} className="services-one__single">
+                  {/* <div className="services-one__icon">
                     <span className="icon-conversation" />
-                  </div>
+                  </div> */}
                   <h3 className="services-one__title">
                     <Link to={`${props.link}`}>
                      {props.serviceTitle}

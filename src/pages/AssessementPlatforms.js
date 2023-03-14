@@ -64,7 +64,7 @@ const AssessementPlatforms = () => {
                   </p>
                   <img
                     class="text-center"
-                    src="/assets/images/resources/assesment-platform.png"
+                    src="/assets/images/resources/ASSESSMENTPLATFORMS-two.jpg"
                     alt="assesment-platform includes"
                   />
                   <p className="service-details__text ">

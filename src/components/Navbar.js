@@ -25,7 +25,7 @@ const Menu = () => {
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:Contact@waywedesign.com">
+                      <a href="mailto:contact@waywedesign.com">
                         contact@waywedesign.com
                       </a>
                     </p>

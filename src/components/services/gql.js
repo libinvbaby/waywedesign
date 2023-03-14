@@ -3,7 +3,7 @@ import { gql } from 'graphql-request';
 export const postsQuery = () => {
   const query = gql`
     query {
-      posts(first: 200) {
+      posts(first: 200, orderBy: publishedAt_DESC) {
         createdAt
         datePublished
         coverPhoto {

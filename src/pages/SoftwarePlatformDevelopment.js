@@ -123,9 +123,9 @@ const SoftwareDevelopmentPlatform = () => {
       <section className="services-one">
         <div className="container">
           <div className="section-title text-center">
-            <span className="section-title__tagline">
+            {/* <span className="section-title__tagline">
               Wide Range of Services
-            </span>
+            </span> */}
             <h2 className="section-title__title">Services</h2>
           </div>
           <div className="row">
